@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Mr. Gao的个人博客
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="Mr. Gao">
+<meta name="description" content="一个普普通通的人...">
+<meta name="keywords" content="Mr. Gao,gaojj2000,Python,Java">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://gaojj2000.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://gaojj2000.github.io">
+                    Mr. Gao的个人博客
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                    <a class="menu-item" href="/post/csdn_catalog">
+                        CSDN博客目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/github">
+                        GitHub仓库目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/python">
+                        Python
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://gaojj2000.github.io">
+                            Mr. Gao的个人博客
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                        <a class="menu-item" href="/post/csdn_catalog">
+                            CSDN博客目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/github">
+                            GitHub仓库目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/python">
+                            Python
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                关于python多任务设计基础
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Mr. Gao的个人博客
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-12-08</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">63.9
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">15900</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://gaojj2000.github.io/tag/python/">Python</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://gaojj2000.github.io/post-images/multitasking.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/img_convert/d147e5356c2c6bcb8498e1d1188a34a5.png" alt="人生苦短，我用python" loading="lazy"></figure>
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E5%89%8D%E8%A8%80">😉前言</a></li>
+<li><a href="#%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D">😉概念介绍</a>
+<ul>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">🤗进程、线程、协程之间的区别</a>
+<ul>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">😮进程、线程之间的区别</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">😮线程、协程之间的区别</a></li>
+</ul>
+</li>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB">🤗进程、线程、协程之间的联系</a></li>
+<li><a href="#%E5%A4%9A%E8%BF%9B%E7%A8%8B-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%8D%8F%E7%A8%8B%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9">🤗多进程、多进程与协程的优缺点</a></li>
+<li><a href="#%E4%B8%B2%E8%A1%8C-%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%B9%B6%E5%8F%91%E7%9A%84%E5%8C%BA%E5%88%AB">🤗串行、并行与并发的区别</a></li>
+<li><a href="#%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E-%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E5%8C%BA%E5%88%AB">🤗同步、异步与阻塞、非阻塞的区别</a></li>
+<li><a href="#%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E-%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E8%81%94%E7%B3%BB">🤗同步、异步与阻塞、非阻塞的联系</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉协程程序的简单设计</a>
+<ul>
+<li><a href="#%E5%85%88%E7%AE%80%E5%8D%95%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B%E7%94%9F%E6%88%90%E5%99%A8">🤗先简单了解一下生成器</a></li>
+<li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%9F%E6%88%90%E5%99%A8%E5%AF%B9%E8%B1%A1%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E8%BF%99%E4%B9%88%E5%B0%8F">🤗为什么生成器对象占用内存这么小</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%9E%E7%94%9F">🤗一个协程程序的诞生</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E6%8E%A5%E6%94%B6%E6%95%B0%E6%8D%AE%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%9E%E7%94%9F">🤗一个可以用来接收数据协程程序的诞生</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E7%A8%8D%E5%BE%AE%E5%AE%9E%E9%99%85%E4%B8%80%E7%82%B9%E7%9A%84%E4%BE%8B%E5%AD%90">🤗一个稍微实际一点的例子</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E7%94%9F%E6%88%90%E5%99%A8%E4%B8%AD%E9%9C%80%E8%A6%81%E7%BB%88%E6%AD%A2%E7%94%9F%E6%88%90%E6%8F%90%E5%89%8D%E7%BB%93%E6%9D%9F">🤗关于生成器中需要终止生成提前结束</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E4%B8%8A%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%B0%8F%E6%A0%97%E5%AD%90">🤗关于上面生成器的两个小栗子</a>
+<ul>
+<li><a href="#yield-%E4%B8%8E-return-%E5%85%B1%E5%AD%98">😮<code>yield</code> 与 <code>return</code> 共存</a></li>
+<li><a href="#for-%E5%BE%AA%E7%8E%AF%E4%B8%AD-next-%E6%93%8D%E4%BD%9C">😮<code>for</code> 循环中 <code>next</code> 操作</a></li>
+<li><a href="#%E6%A0%97%E5%AD%90%E8%A7%A3%E7%AD%94">😮栗子解答</a></li>
+</ul>
+</li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E5%8D%8F%E7%A8%8B%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8">🤗常见协程库的使用</a>
+<ul>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E6%A8%A1%E5%9D%97%E6%9C%89%E5%93%AA%E4%BA%9B">😮协程模块有哪些</a></li>
+<li><a href="#asyncio-%E6%A8%A1%E5%9D%97%E4%B8%8E-async-await-%E5%85%B3%E9%94%AE%E5%AD%97">😮<code>asyncio</code> 模块与 <code>async</code> / <code>await</code> 关键字</a></li>
+<li><a href="#greenlet-%E6%A8%A1%E5%9D%97">😮<code>greenlet</code> 模块</a></li>
+<li><a href="#gevent-%E6%A8%A1%E5%9D%97">😮<code>gevent</code> 模块</a>
+<ul>
+<li><a href="#%E8%AE%A4%E8%AF%86-gevent-%E6%A8%A1%E5%9D%97">🤩认识 <code>gevent</code> 模块</a></li>
+<li><a href="#%E5%A4%9A%E5%8D%8F%E7%A8%8B%E5%B9%B6%E5%8F%91%E4%B8%8B%E8%BD%BD%E5%99%A8">🤩多协程并发下载器</a></li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E5%8A%A0%E9%94%81">🤩协程加锁</a></li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E6%B1%A0">🤩协程池</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉多线程程序的简单设计</a>
+<ul>
+<li><a href="#gil%E9%94%81">🤗GIL锁</a></li>
+<li><a href="#%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9D%97">🤗多线程模块</a></li>
+<li><a href="#%E5%90%AF%E5%8A%A8%E5%A4%9A%E7%BA%BF%E7%A8%8B-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%8A%A0%E9%94%81">🤗启动多线程、多线程加锁</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E6%B1%A0">🤗线程池</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1">🤗线程间通信</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8">🤗线程安全</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉多进程程序的简单设计</a>
+<ul>
+<li><a href="#%E5%90%AF%E5%8A%A8%E5%A4%9A%E8%BF%9B%E7%A8%8B-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%8A%A0%E9%94%81-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">🤗启动多进程、多进程加锁、多进程通信</a></li>
+<li><a href="#%E8%BF%9B%E7%A8%8B%E6%B1%A0">🤗进程池</a></li>
+</ul>
+</li>
+<li><a href="#%E6%80%BB%E7%BB%93">😉总结</a></li>
+<li><a href="#%E7%BB%93%E6%9D%9F%E8%AF%AD">😉结束语</a></li>
+</ul>
+(🧡关于python多任务设计基础)</p>
+<h1 id="前言">😉前言</h1>
+<p>经详细阅读有关 “ <strong>协程、线程、进程，同步、异步，并发、并行，堵塞、非堵塞，IO密集型、CPU密集型</strong> ” 的各类资料，并再次整理成本篇文章，力求结合实际素材全面整理。<br>
+本文中的栗子说明是以博主自己所想为基准所写，适合阅读，但可能不太适合直观的参考。<br>
+本文可能比较会比你看到过的大部分文章都长，建议收藏后慢慢看。</p>
+<h1 id="概念介绍">😉概念介绍</h1>
+<ul>
+<li>进程：
+<ul>
+<li>应用程序的启动实例，比如运行一个游戏，打开一个软件、跑一个程序。</li>
+<li>操作系统分配资源的最小单位，拥有代码文本、被分配的系统资源、独立的虚拟内存地址、堆栈空间。</li>
+</ul>
+</li>
+<li>线程：
+<ul>
+<li>CPU调度和分配的最小单位，拥有自己的栈空间。</li>
+<li>从属于进程，主抓 CPU 执行代码的过程，它可以被抢占（中断）和临时挂起（睡眠）。</li>
+</ul>
+</li>
+<li>协程：
+<ul>
+<li>线程的优化，实现多任务的同步，而又不用加锁。</li>
+<li>不被操作系统内核所管理，而完全是由程序所控制。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>同步：
+<ul>
+<li>一个进程在执行某个请求的时候，若该请求需要一段时间才能返回信息，那么这个进程将会 一直等待下去，直到收到返回信息才继续执行下去。</li>
+</ul>
+</li>
+<li>异步：
+<ul>
+<li>进程不需要一直等下去，而是继续执行下面的操作，不管其他进程的状态，当有消息返回式系统会通知进程进行处理，这样可以提高执行的效率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>并发：
+<ul>
+<li>实际并不是同时执行。</li>
+<li>一个 CPU 通过在任务间快速切换（<strong>时分交替执行</strong>），达到多任务”一起”执行的错觉。</li>
+</ul>
+</li>
+<li>并行：
+<ul>
+<li>实际是真正的同时执行。</li>
+<li>每个任务都有不同 CPU 去执行（<strong>利用多核性能</strong>），达到多任务一起执行。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>堵塞：
+<ul>
+<li>从调用者的角度出发，如果在调用的时候，被卡住，不能再继续向下运行，需要等待。</li>
+</ul>
+</li>
+<li>非堵塞：
+<ul>
+<li>从调用者的角度出发， 如果在调用的时候，没有被卡住，能够继续向下运行，无需等待。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>IO密集型：
+<ul>
+<li>指系统的CPU性能相对硬盘性能、内存性能的需求要高很多。此时，系统运作，大部分的状况是CPU在等I/O (硬盘/内存) 的读/写操作，此时CPU使用率并不高。</li>
+</ul>
+</li>
+<li>CPU密集型：
+<ul>
+<li>也叫计算密集型，指对系统的硬盘性能、内存性能相对CPU性能的需求要高很多。此时，系统运作大部分的状况是CPU使用率100%。即使CPU要读/写I/O(硬盘/内存)，I/O在很短的时间就可以完成，而CPU还有许多运算要处理，CPU使用率很高。</li>
+</ul>
+</li>
+</ul>
+<h2 id="进程-线程-协程之间的区别">🤗进程、线程、协程之间的区别</h2>
+<ul>
+<li>进程切换需要的资源最大，效率很低。</li>
+<li>线程切换需要的资源一般，效率一般。</li>
+<li>协程切换需要的资源很小，效率很高。</li>
+</ul>
+<h3 id="进程-线程之间的区别">😮进程、线程之间的区别</h3>
+<ul>
+<li>一个进程至少有一个主线程。</li>
+<li>进程是操作系统资源分配的单位，线程是CPU调度的单位。</li>
+<li>进程是资源分配的最小单位，线程是CPU调度的最小单位.。</li>
+<li>同一个进程中的线程共享同一内存空间，但是进程之间是独立的。</li>
+<li>创建新的线程很容易，但是创建新的进程需要对父进程做一次复制。</li>
+<li>线程启动速度快，进程启动速度慢（但是两者运行速度没有可比性）。</li>
+<li>一个线程可以操作同一进程的其他线程，但是进程只能操作其子进程。</li>
+<li>由于线程之间能够共享地址空间，因此，需要考虑线程的同步和互斥操作。</li>
+<li>同一个进程中的所有线程的数据是共享的（进程通讯），进程之间的数据是独立的。</li>
+<li>同一个进程的线程之间可以直接通信，但是进程之间的交流需要借助中间代理（队列）来实现。</li>
+<li>对主线程的修改可能会影响其他线程的行为，但是父进程的修改（除了删除以外）不会影响其他子进程。</li>
+<li>一个线程的意外终止会影响整个进程的正常运行，但是一个进程的意外终止不会影响其他的进程的运行。因此，多进程程序安全性更高。</li>
+<li>进程是资源的分配和调度的独立单元。进程拥有完整的虚拟地址空间，当发生进程切换时，不同的进程拥有不同的虚拟地址空间。而同一进程的多个线程是可以共享同一地址空间。</li>
+</ul>
+<h3 id="线程-协程之间的区别">😮线程、协程之间的区别</h3>
+<ul>
+<li>线程进程都是同步机制，而协程则是异步。</li>
+<li>协程能保留上一次调用时的状态，每次过程重入时，就相当于进入上一次调用的状态。</li>
+<li>一个线程可以有多个协程，一个进程也可以单独拥有多个协程，通过多进程 + 多协程，python中能使用多核CPU。</li>
+</ul>
+<h2 id="进程-线程-协程之间的联系">🤗进程、线程、协程之间的联系</h2>
+<p>进程和线程都有五种基本状态：</p>
+<ul>
+<li>初始状态：进程（线程）刚被创建，由于其他进程（线程）正占有CPU所以得不到执行，只能处于初始状态。</li>
+<li>执行状态：任意时刻处于执行状态的进程（线程）只能有一个。</li>
+<li>就绪状态：只有处于就绪状态的经过调度才能到执行状态。</li>
+<li>等待状态：进程（线程）等待某件事件完成。</li>
+<li>停止状态：进程（线程）结束。<br>
+<img src="https://img-blog.csdnimg.cn/4ea4b3c2e0844c6a83a513fcb5806575.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_17,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+每启动一个程序，操作系统都会创建一个主进程，可能有其他子进程。每个进程里有一个主线程，可能有其他子线程。每个线程里可能有若干协程，是一种<strong>用户态的轻量级线程</strong>，协程又被称作：<strong>微线程</strong>、<strong>纤程</strong>。<br>
+多任务的实现原理就是如此，设计<strong>Master-Worker</strong>模式，<strong>Master</strong>负责分配任务，<strong>Worker</strong>负责执行任务，所以多任务的环境下，通常是一个<strong>Master</strong>和多个<strong>Worker</strong>，主进程、主线程就是<strong>Master</strong>，子进程、子线程就是<strong>Worker</strong>。</li>
+</ul>
+<h2 id="多进程-多进程与协程的优缺点">🤗多进程、多进程与协程的优缺点</h2>
+<ul>
+<li>多进程：
+<ul>
+<li>优点：
+<ul>
+<li>稳定性高：一个子进程崩溃了，不会影响主进程和其他紫禁城，当然主进程挂了那所有进程就全挂了，但通常主进程只负责分配任务，挂掉的概率低。</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>创建进程的代价大：在Unix/Linux系统下，用fork调用还行，但在Windows下创建进程开销巨大。</li>
+<li>操作系统能同时运行的进程数是有限的：在内存和CPU的限制下，如果有几千个进程同时运行，操作系统连调度都会非常困难。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>多线程：
+<ul>
+<li>优点：
+<ul>
+<li>程序设计简单、响应更快。</li>
+<li>在Windows下，多线程的资源利用效率比多进程要高。</li>
+<li>多线程模式通常比多进程快一点，但是也快不到哪里去。</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>任何一个线程挂掉都可能直接造成整个进程崩溃：可能有这样的提示“该程序执行了非法操作，即将关闭”。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>协程：
+<ul>
+<li>优点：
+<ul>
+<li>方便切换控制流，简化编程模型。</li>
+<li>单线程内就可以实现并发的效果，最大限度地利用cpu。</li>
+<li>高并发 + 高拓展性 + 低成本，一个CPU可以支持上万个协程。</li>
+<li>协程的切换开销更小，属于程序级别的切换，操作系统完全感知不到，因而更加轻量级，提高的性能。</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>协程指的是单个线程，因而一旦协程出现堵塞，将会堵塞整个线程。</li>
+<li>协程的本质是单线程下，无法利用多核。但协程可以和进程匹配使用运行在多CPU上，一般除非是CPU计算密集型应用，不然不需要。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="串行-并行与并发的区别">🤗串行、并行与并发的区别</h2>
+<figure data-type="image" tabindex="2"><img src="https://img-blog.csdnimg.cn/ec7d3de240c9450ab806b82f3d76bfd0.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_16,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"></figure>
+<h2 id="同步-异步与阻塞-非阻塞的区别">🤗同步、异步与阻塞、非阻塞的区别</h2>
+<ul>
+<li>同步、异步与阻塞、非阻塞不相关。</li>
+<li>同步与异步区别在于：调用者是否得到了想要的最终结果。</li>
+<li>阻塞与非阻塞的区别在于，调用者是否还能干其他的事情。</li>
+<li>同步、异步强调的是结果。阻塞和非阻塞强调的是时间，是否等待。。</li>
+<li>阻塞，调用者只能干等。非阻塞，调用者可以先忙别的事情，不用一直等。</li>
+<li>同步就是一直要执行到返回最终结果。异步就是直接返回了，但是返回的不是最终的结果，调用者不能通过这种调用得到结果，还要通过被调用者，使用其他方式通知调用者，来取回最终结果。</li>
+</ul>
+<h2 id="同步-异步与阻塞-非阻塞的联系">🤗同步、异步与阻塞、非阻塞的联系</h2>
+<p>同步阻塞：调用者阻塞，直到等到拿到最终结果。<br>
+同步非阻塞：在等待的过程中可以干点其他事情，干其他事情的间隙看看结果。<br>
+异步阻塞：调用者阻塞，直到收到最终结果通知。<br>
+异步非阻塞：在等待的过程中可以干点其他事情，最终结果出来会通知调用者。</p>
+<h1 id="协程程序的简单设计">😉协程程序的简单设计</h1>
+<p>在这里我们将用学驾照科目三所用的三段话来见证我们多任务设计：多语句打印。<br>
+我们将三句话分为三个列表，如下：</p>
+<pre><code class="language-python"># 起步动作1挂空档2启动发动机3打转向灯4挂1档5松手刹起步走同时观察
+start_steps = [
+    '挂空档',
+    '启动发动机',
+    '打转向灯',
+    '挂1档',
+    '松手刹起步走同时观察'
+]
+
+# 起步用1档，移动两个车身加2档，25码左在加3档，40码左右加4档，45码加5档，50码以上必须加5档
+speed_steps = [
+    '起步用1档',
+    '移动两个车身加2档',
+    '25码左右加3档',
+    '40码左右加4档',
+    '45码左右加5档',
+    '50码以上必须加5档'
+]
+
+# 停车动作：1关转向灯，2拉手刹，3挂空档，4熄火，5挂1档，6松安全带，7观察右手开门下车
+stop_steps = [
+    '关转向灯',
+    '拉手刹',
+    '挂空档',
+    '熄火',
+    '挂1档',
+    '松安全带',
+    '观察右手开门下车'
+]
+</code></pre>
+<p>接下来就让我们来使用这些数据疯狂输出吧！</p>
+<h2 id="先简单了解一下生成器">🤗先简单了解一下生成器</h2>
+<pre><code class="language-python">import sys
+
+start_steps = [
+    '挂空档',
+    '启动发动机',
+    '打转向灯',
+    '挂1档',
+    '松手刹起步走同时观察'
+]
+
+speed_steps = [
+    '起步用1档',
+    '移动两个车身加2档',
+    '25码左右加3档',
+    '40码左右加4档',
+    '45码左右加5档',
+    '50码以上必须加5档'
+]
+
+stop_steps = [
+    '关转向灯',
+    '拉手刹',
+    '挂空档',
+    '熄火',
+    '挂1档',
+    '松安全带',
+    '观察右手开门下车'
+]
+
+all_steps = start_steps + speed_steps + stop_steps
+
+
+def yield_function(steps):
+    for item in steps:
+        yield item
+
+
+function = yield_function(all_steps)
+print(function)
+print(sys.getsizeof(function))
+print(sys.getsizeof(yield_function(start_steps)))
+print(sys.getsizeof(start_steps))
+print(sys.getsizeof(all_steps))
+for index, step in enumerate(all_steps):
+    print(str(index + 1) + &quot;、&quot; + step)
+</code></pre>
+<p>在函数中有<code>yield</code> 关键字的，那这个函数就成为了生成器。<code>yield</code> 关键字不同于 <code>return</code> 关键字，如果相同位置换成 <code>return</code> 关键字 ，那只会返回列表的第一个，就不再执行了，但是这里的 <code>yield</code> 关键字只要还有下一个元素，就能一直等待继续运行。上述代码运行结果：</p>
+<pre><code>&lt;generator object yield_function at 0x0000018C26C70ED0&gt;
+120
+120
+104
+208
+1、挂空档
+2、启动发动机
+3、打转向灯
+4、挂1档
+5、松手刹起步走同时观察
+6、起步用1档
+7、移动两个车身加2档
+8、25码左右加3档
+9、40码左右加4档
+10、45码左右加5档
+11、50码以上必须加5档
+12、关转向灯
+13、拉手刹
+14、挂空档
+15、熄火
+16、挂1档
+17、松安全带
+18、观察右手开门下车
+</code></pre>
+<p>可以看到第 <strong>1</strong> 行代表了函数对象 <code>yield_function</code> 是个<code>generator</code> 对象。<br>
+第 <strong>2-5</strong> 行是对象所占用内存空间的大小，可以看到不管传入多大的列表，生成器对象占用的内存大小始终是 <strong>120</strong> ，但列表对象占用的内存大小是跟其本身长度成正比的，列表越长，列表对象占用内存越大，所以遇到大量数据时，为了减轻你电脑内存条压力，使用 <code>yield</code> 返回生成器对象吧！<br>
+后面的是打印了列表所有的元素。</p>
+<h2 id="为什么生成器对象占用内存这么小">🤗为什么生成器对象占用内存这么小</h2>
+<p>生成器，顾名思义，是用来生成的，所以他并不直接将数据写入内存，而是将数据是如何生成出来的方式写入内存，读取的时候就执行一次生成的方式，就能获取数据，这也是为什么生成器对象占用空间大小很小的原因。<br>
+这里 <code>for</code> 	 循环生成器，实际上一直在调用  <code>next(step) </code> ，也就是调用  <code>step.__next__() </code> 方法，直到当生成器运算到结尾没有下一个元素并抛出 <code>StopIteration</code> 异常的时候，结束继续生成。</p>
+<h2 id="一个协程程序的诞生">🤗一个协程程序的诞生</h2>
+<p>到上面为止暂时和 <code>for</code> 循环好像还没什么区别，接下来开始 <strong>巴啦啦能量，生成器全身变</strong> ：</p>
+<pre><code class="language-python">import time
+from functools import partial
+
+start_steps = [
+    '挂空档',
+    '启动发动机',
+    '打转向灯',
+    '挂1档',
+    '松手刹起步走同时观察'
+]
+
+
+def yield_toggle(text):
+    while True:
+        print(text)
+        yield
+        time.sleep(0.5)
+
+
+yield1 = partial(yield_toggle, text=&quot;1、&quot; + start_steps[0])
+yield2 = partial(yield_toggle, text=&quot;2、&quot; + start_steps[1])
+yield3 = partial(yield_toggle, text=&quot;3、&quot; + start_steps[2])
+yield4 = partial(yield_toggle, text=&quot;4、&quot; + start_steps[3])
+yield5 = partial(yield_toggle, text=&quot;5、&quot; + start_steps[4])
+y1 = yield1()
+y2 = yield2()
+y3 = yield3()
+y4 = yield4()
+y5 = yield5()
+while True:
+    next(y1)
+    next(y2)
+    next(y3)
+    next(y4)
+    next(y5)
+</code></pre>
+<p>这里的 <code>functools.partial</code> 方法主要是用来生成函数的，根据给的 <code>text</code> 值的不同生成不同的函数，相当于五个函数，每个函数都 <code>pinrt</code> 一句不同的话，来模拟五个输出任务。<br>
+执行结果很“长”：</p>
+<pre><code>1、挂空档
+2、启动发动机
+3、打转向灯
+4、挂1档
+5、松手刹起步走同时观察
+1、挂空档
+2、启动发动机
+3、打转向灯
+4、挂1档
+5、松手刹起步走同时观察
+1、挂空档
+...
+</code></pre>
+<p>后面自然是无限循环了，自然很“长”，来看下代码，这里相当于实现五个不同函数的轮流调用，通过<code>yield</code> 关键字 <strong>“ 挂起”</strong> ，然后执行其他函数，然后再 <strong>“ 挂起”</strong> ...这也就是协程的简单理解。<br>
+当然这里面我们的数据只能在函数内定义，用处也不大，现在代码处理的不都是从外部接收的数据嘛，接下来，就让外面的数据进到函数里面，实现 <strong>“外面提供什么，里面就接收什么”</strong>。</p>
+<h2 id="一个可以用来接收数据协程程序的诞生">🤗一个可以用来接收数据协程程序的诞生</h2>
+<p>先上代码：</p>
+<pre><code class="language-python">import time
+
+speed_steps = [
+    '起步用1档',
+    '移动两个车身加2档',
+    '25码左右加3档',
+    '40码左右加4档',
+    '45码左右加5档',
+    '50码以上必须加5档'
+]
+
+
+def yield_loop():
+    date = ''
+    for prefix in ['1、', '2、', '3、', '4、', '5、', '6、']:
+        res = yield date
+        print(prefix + res)
+        time.sleep(0.5)
+    yield
+
+
+t = yield_loop()
+t.send(None)
+for step in speed_steps:
+    t.send(step)
+</code></pre>
+<p>这段代码就简短的打印了速度匹配，运行结果如下：</p>
+<pre><code>1、起步用1档
+2、移动两个车身加2档
+3、25码左右加3档
+4、40码左右加4档
+5、45码左右加5档
+6、50码以上必须加5档
+</code></pre>
+<p>观察到这里 <code>yield</code> 后面跟了个变量，如果从生成器的 <code>for</code> 循环中打印元素，那只能打印出一堆空白，但他返回的同时也会接收参数，如果你在下面使用 <code>generator.send(XXX)</code> 的话。<br>
+所以如果一个函数中出现了 <code>res = yield data</code> ，那么 <code>data</code> 就是返回的值，同时会接收 <code>generator.send(XXX)</code> 传入的参数值，并将参数值赋值给 <code>res</code> 变量，可以用来打印等处理。<br>
+注意这里要使用 <code>generator.send(None)</code> 来启动生成器（此时 <code>generator.send(None)</code> 返回的是 <code>date</code> 的初始化值）。<br>
+为什么要在最后再单独加个 <code>yield</code> 呢？这里实际上是因为生成器在启动后就会 <strong>延时返回参数</strong> ，意思就是先会接收传入的值，等到代码再次执行到 <code>yield</code> 时再返回当前的 <code>date</code> 变量值，所以最后加个 <code>yield</code> 是让他最后返回一次参数，这样上下等数循环时，就不会出现 <code>StopIteration</code> 异常了。</p>
+<h2 id="一个稍微实际一点的例子">🤗一个稍微实际一点的例子</h2>
+<p>还是一样，先看代码：</p>
+<pre><code class="language-python">import time
+
+stop_steps = [
+    '关转向灯',
+    '拉手刹',
+    '挂空档',
+    '熄火',
+    '挂1档',
+    '松安全带',
+    '观察右手开门下车'
+]
+
+
+def yield_function():
+    date = '[语音提示：]请靠路边停车。'
+    for operate in stop_steps:
+        res = yield date
+        if res != operate:
+            yield f'[语音提示：]考生未 “{operate}” ， 扣 100 分，成绩不合格。'
+        else:
+            date = f&quot;{'[考生操作：]' if date == '[语音提示：]请靠路边停车。' else f'{date[:-1]}，'}{res}。&quot;
+        time.sleep(1)
+    yield f'{date}\n[语音提示：]成绩合格，成绩 100 分，请回考试中心打印成绩单。'
+
+
+t = yield_function()
+print(t.send(None))
+for step in stop_steps:
+    req = t.send(step)
+    print('\r' + req, end='')
+    if req.endswith('成绩不合格。') or req.endswith('成绩单。'):
+        break
+</code></pre>
+<p>上面的代码稍微看看应该能看出来，这是一个模拟科目三语音提示和考生操作的例子，模拟的是考试通过的例子，最终的运行的结果就三行：</p>
+<pre><code>[语音提示：]请靠路边停车。
+[考生操作：]关转向灯，拉手刹，挂空档，熄火，挂1档，松安全带，观察右手开门下车。
+[语音提示：]成绩合格，成绩 100 分，请回考试中心打印成绩单。
+</code></pre>
+<p>假如让外部输入的操作内容变一变，比如少掉挂1挡这个操作，最后控制代码变成如下代码：</p>
+<pre><code class="language-python">t = yield_function()
+print(t.send(None))
+steps = stop_steps[:4] + stop_steps[5:]
+for step in steps:
+    req = t.send(step)
+    print('\r' + req, end='')
+    if req.endswith('成绩不合格。') or req.endswith('成绩单。'):
+        break
+</code></pre>
+<p>就变成了两行考试不通过的情景：</p>
+<pre><code>[语音提示：]请靠路边停车。
+[语音提示：]考生未 “挂1档” ， 扣 100 分，成绩不合格。
+</code></pre>
+<p>现在可以多给一条，在正常操作之外再给一条操作，试试他会不会报错，最后控制代码修改如下：</p>
+<pre><code class="language-python">t = yield_function()
+print(t.send(None))
+for step in stop_steps + ['跟安全员摆手再见']:
+    req = t.send(step)
+    print('\r' + req, end='')
+    if req.endswith('成绩不合格。') or req.endswith('成绩单。'):
+        break
+</code></pre>
+<p>依然是三行考试通过：</p>
+<pre><code>[语音提示：]请靠路边停车。
+[考生操作：]关转向灯，拉手刹，挂空档，熄火，挂1档，松安全带，观察右手开门下车。
+[语音提示：]成绩合格，成绩 100 分，请回考试中心打印成绩单。
+</code></pre>
+<p>从这个例子我们可以看出来，我们此时由 <code>yield</code> 关键字构成的生成器已经可以和外部输入的操作内容正常交互了，可以一边接收数据一边检验数据，这就是协程的方便之处，不然你只能等到所有操作都操作完（获取到一个结果列表），你才能统一分析（比如你当中有步骤做错了，等到全部做完才会有结果，协程让你边做边判断结果）。慢慢琢磨这个例子，能让你了解 <code>yield</code> 关键字是如何接收参数值和传出变量值的。</p>
+<h2 id="关于生成器中需要终止生成提前结束">🤗关于生成器中需要终止生成提前结束</h2>
+<p>在函数中一旦有 <code>yield</code> 关键字，那么这个函数就变成了一个生成器。一般我们想要提前结束生成器就会想到 <code>return</code> 关键字，但如果运行到 <code>return</code> 关键字时还在使用 <code>next()</code> 函数来获取值，肯定会报 <code>StopIteration</code> 异常，因为对于 <code>yield</code> 关键字已经完成了所有返回，所以 <code>next()</code> 无法再等到 <code>yield</code> 关键字的返回所以报错，不过如果使用 <code>for</code> 循环那就会自动捕获异常且终止生成器生成。<br>
+但对于使用 <code>generator.send()</code> 方法传递参数的生成器来说，最好的方式还是通过外部捕获返回的值，当接收到的返回值是结束信号，那就能提前结束生成器。上面例子中的 <code>if req.endswith('成绩不合格。') or req.endswith('成绩单。')</code> 就是判断结束的条件，是否返回成绩合格不合格相应的字符串，当然我们也可以多个返回值，来进行判断，比如将程序改成：</p>
+<pre><code class="language-python">import time
+
+stop_steps = [
+    '关转向灯',
+    '拉手刹',
+    '挂空档',
+    '熄火',
+    '挂1档',
+    '松安全带',
+    '观察右手开门下车'
+]
+
+
+def yield_function():
+    date = '[语音提示：]请靠路边停车。'
+    for operate in stop_steps:
+        res = yield date, 0
+        if res != operate:
+            yield f'[语音提示：]考生未 “{operate}” ， 扣 100 分，成绩不合格。', 1
+        else:
+            date = f&quot;{'[考生操作：]' if date == '[语音提示：]请靠路边停车。' else f'{date[:-1]}，'}{res}。&quot;
+        time.sleep(1)
+    yield f'{date}\n[语音提示：]成绩合格，成绩 100 分，请回考试中心打印成绩单。', 1
+
+
+t = yield_function()
+print(t.send(None)[0])
+for step in stop_steps + ['跟安全员摆手再见']:
+    req, code = t.send(step)
+    print('\r' + req, end='')
+    if code:
+        break
+</code></pre>
+<p>此时生成器中返回了提示字符串还有是否结束的标志位，在有结果的 <code>yield</code> 后面返回 <strong>1</strong> 这个状态，在没有结果的 <code>yield</code> 后面返回 <strong>0</strong> 这个状态。这样外部控制语句只需要判断返回的 <code>code</code> 是否为 <strong>1</strong> ，就知道是否可以结束生成器的生成。</p>
+<h2 id="关于上面生成器的两个小栗子">🤗关于上面生成器的两个小栗子</h2>
+<p>接下来有两个 “不一般” 的小栗子，看看他会不会如你所想的执行：</p>
+<h3 id="yield-与-return-共存">😮<code>yield</code> 与 <code>return</code> 共存</h3>
+<pre><code class="language-python"># 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+def yield_function():
+    return 6
+    for i in range(6):
+        yield i
+
+
+y = yield_function()
+print(y)
+</code></pre>
+<p>猜猜这个 <code>y</code> 收到的值是什么？</p>
+<h3 id="for-循环中-next-操作">😮<code>for</code> 循环中 <code>next</code> 操作</h3>
+<pre><code class="language-python"># 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+# 为了不把答案同屏显示，此注释用于给代码块增高。
+def yield_function():
+    for i in range(6):
+        yield i
+
+
+y = yield_function()
+for t in y:
+    print(next(y))
+</code></pre>
+<p>猜猜这段代码会打印出来什么？</p>
+<h3 id="栗子解答">😮栗子解答</h3>
+<p>栗子1：<code>y</code> 的值是：<code>&lt;generator object yield_function at 0x0000015A19DC0ED0&gt;</code><br>
+栗子2：返回结果如下：</p>
+<pre><code>1
+3
+5
+</code></pre>
+<p>怎么样，你都想对了吗？初学者不出意外想到的 <code>y</code> 的值是 <strong>6</strong>，返回结果是 <strong>1-6</strong> ，答案有没有刷新你们的小脑袋瓜？<br>
+这里的函数虽然 <code>return</code> 写在了 <code>yield</code> 上面，但不管 <code>yield</code> 有没有被运行到，有 <code>yield</code> 就是生成器，不管这段代码会不会被运行，哪怕他下面的代码块都被编辑器标黄表示不会运行那段代码了：<br>
+<img src="https://img-blog.csdnimg.cn/d4c00b33d7824eea9b6352606c34d41e.png" alt="在这里插入图片描述" loading="lazy"><br>
+所以 <code>return</code> 写在 <code>yield</code> 上面，你是什么返回值都获取不到，用 <code>next()</code> 函数反而还会给你一个 <code>StopIteration</code> 异常。<br>
+至于下面的<code>for</code> 循环中 <code>next</code> 为什么会获取偶数呢，这要从 <code>for</code> 循环对迭代器（生成器是一种特殊的迭代器）的运行机制说起了。<br>
+迭代器肯定是可迭代对象，但可迭代对象不一定是迭代器，从组成来说，可迭代对象一定有 <code>__iter__()</code> 方法，但迭代器除了拥有这个方法，还有 <code>__next__()</code> 这个方法。对于 <code>for</code> 循环来说，他会自动调用 <code>next()</code> 函数，也就是迭代器的 <code>__next__()</code> 方法，当捕获到 <code>StopIteration</code> 异常之后，就会停止调用 <code>next()</code> 函数并结束循环。<br>
+所以在栗子2中， <code>for</code> 循环每次进去循环体都会调用一次 <code>next()</code> 函数，这样生成器中就执行到第二次，所以循环体中调用 <code>next()</code> 函数返回 <strong>1</strong>，之后一样，只会打印偶数次调用生成器。原本生成的是 <strong>0-5</strong>，偶数位置就是 <strong>1、3、5</strong> 了，所以他只会打印偶数数字。</p>
+<h2 id="常见协程库的使用">🤗常见协程库的使用</h2>
+<p>上面那些设计，你会感觉到使用一个普通函数也能完成这项操作，但不要急，这是因为仅仅使用了一个 <code>yield</code> 关键字，所以功能不够强大。接下来该我们专业的协程库上场了，专业的协程库能让我们真正体会到使用协程的好处：</p>
+<h3 id="协程模块有哪些">😮协程模块有哪些</h3>
+<p>协程最主要的两个关键字是： <code>async</code> / <code>await</code> ，然后还有上文所述的 <code>yield</code> 关键字。</p>
+<ul>
+<li><code>asyncio</code> ：异步IO模块。</li>
+<li><code>greenlet</code> ：核心还是 <code>yield</code> 关键字。</li>
+<li><code>gevent</code> ：更强大，更常用。</li>
+<li>其他异步框架：
+<ul>
+<li><code>aiohttp</code> ：基于异步IO模块实现的HTTP框架。</li>
+<li><code>aiomysql</code>：异步操作mysql。</li>
+<li><code>aioredis</code>：异步操作redis。</li>
+</ul>
+</li>
+</ul>
+<p>接下来我们来一个个的使用尝试。</p>
+<h3 id="asyncio-模块与-async-await-关键字">😮<code>asyncio</code> 模块与 <code>async</code> / <code>await</code> 关键字</h3>
+<p><code>asyncio</code> 模块是 <strong>python3.4</strong> 版本开始引入的标准库，直接内置了对<strong>异步IO</strong>的操作。<br>
+编程模式：是一个消息循环，我们从 <code>asyncio</code> 模块中直接获取一个 <strong>EventLoop</strong> 的引用，然后把需要执行的协程扔到 <strong>EventLoop</strong> 中执行，就实现了异步。<br>
+接下来请欣赏一段自己编写的小栗子：（ <strong>代码是编的，但知识是实实在在的~</strong> ）</p>
+<pre><code class="language-python">import time
+import asyncio
+
+
+def callback(future):
+    res = future.result()
+    print(f'{res}  \t[当前用时：{time.time() - now:.2f}秒]')
+
+
+async def boil_water():
+    print(&quot;开始烧水...&quot;)
+    await asyncio.sleep(10)
+    return &quot;水烧开了&quot;
+
+
+async def wash_vegetables():
+    print(&quot;叫孩子过来洗菜...&quot;)
+    await asyncio.sleep(20)
+    return &quot;菜洗好了&quot;
+
+
+async def cook():
+    global fan
+    print(&quot;开始热饭...&quot;)
+    await asyncio.sleep(40)
+    fan = True
+    return &quot;饭热好了&quot;
+
+
+async def cooking():
+    global cai
+    while not task3.done():
+        await asyncio.sleep(0.2)
+    print(&quot;开始烧菜...&quot;)
+    await asyncio.sleep(30)
+    cai = True
+    return &quot;菜烧好了&quot;
+
+
+async def set_the_cutlery():
+    global tool
+    while not task3.done():
+        await asyncio.sleep(0.2)
+    print(&quot;叫孩子过来摆放餐具...&quot;)
+    await asyncio.sleep(4)
+    tool = True
+    return &quot;餐具摆放好了&quot;
+
+
+async def have_a_meal():
+    while not (fan and cai and tool):
+        await asyncio.sleep(0.2)
+    print(&quot;开始吃饭...&quot;)
+    await asyncio.sleep(15)
+
+
+now = time.time()
+cai = False  # 是否烧好菜
+fan = False  # 是否热好饭
+tool = False  # 是否摆放好餐具
+print('一个家庭吃一顿饭的全过程。  \t[当前用时：0.0 秒]')
+task1 = asyncio.ensure_future(cook())
+task2 = asyncio.ensure_future(boil_water())
+task3 = asyncio.ensure_future(wash_vegetables())
+task4 = asyncio.ensure_future(cooking())
+task5 = asyncio.ensure_future(set_the_cutlery())
+task1.add_done_callback(callback)
+task2.add_done_callback(callback)
+task3.add_done_callback(callback)
+task4.add_done_callback(callback)
+task5.add_done_callback(callback)
+loop = asyncio.get_event_loop()
+loop.run_until_complete(task1)
+loop.run_until_complete(task2)
+loop.run_until_complete(task3)
+loop.run_until_complete(task4)
+loop.run_until_complete(task5)
+loop.run_until_complete(have_a_meal())
+# loop.run_until_complete(asyncio.gather(*[task1, task2, task3, task4, task5, have_a_meal()]))
+loop.close()
+print(f'很满足这一顿饭~  \t[总共用时：{time.time() - now:.2f}秒]')
+</code></pre>
+<p>这段代码的运行结果就是：</p>
+<pre><code>一个家庭吃一顿饭的全过程。  	[当前用时：0.0 秒]
+开始热饭...
+开始烧水...
+叫孩子过来洗菜...
+水烧开了  	[当前用时：10.02秒]
+菜洗好了  	[当前用时：20.00秒]
+开始烧菜...
+叫孩子过来摆放餐具...
+餐具摆放好了  	[当前用时：24.08秒]
+饭热好了  	[当前用时：40.01秒]
+菜烧好了  	[当前用时：50.08秒]
+开始吃饭...
+很满足这一顿饭~  	[总共用时：65.10秒]
+</code></pre>
+<p>其中，<code>loop.run_until_complete(asyncio.gather(*[task1, task2, task3, task4, task5, have_a_meal()]))</code> 这一行顶的上上面 <strong>6</strong> 行代码，可以统一添加到消息循环中。通过将多人不同耗时任务分割，最终以最短时间完成所有操作，接下来来分析一下上面这段代码每个操作的耗时以及如何运行的。</p>
+<hr>
+<p>首先来看每一个操作单独要多长时间：（<strong>请不要在意数据的真实性，毕竟是为了执行快点编造的~</strong>）<br>
+热饭：<strong>40秒</strong><br>
+烧水：<strong>10秒</strong><br>
+洗菜：<strong>20秒</strong><br>
+烧菜：<strong>30秒</strong><br>
+摆放餐具：<strong>4秒</strong><br>
+吃饭：<strong>15秒</strong><br>
+如果按顺序一件事一件事的来，那总共需要<strong>40+10+20+4+15=119秒</strong>，而看看协程，只用了<strong>65秒</strong>。</p>
+<hr>
+<p>为什么相差时间这么多呢，来看一下“家长”和“孩子”在各个时间段的分工：<br>
+<img src="https://img-blog.csdnimg.cn/d17bfe8256b640879ed844dc32758e68.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_16,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+如图所示，这里所写的堵塞和非堵塞是相对的，我把机器运行认为是非堵塞（<strong>异步</strong>，只需要获取结果），因为期间人能自由做其他事（<strong>同步</strong>，人得专心做完一件事再做另外一件事）；<br>
+但如果你把每个机器当个人看，那全都是堵塞的，因为机器同一时间只能干一个活，那这里就相当于是好多人在同时干活。</p>
+<hr>
+<p>接下来分析代码，需要先了解一些基础知识：</p>
+<ul>
+<li><code>asyncio.sleep()</code> ：这是协程专用的等待，和 <code>time.sleep()</code> 最大的区别就在于， <code>asyncio.sleep()</code> 它不会堵塞线程，而是会切换到事件循环中的其他没有协程等待的事件中去；但 <code>time.sleep()</code> 会堵塞线程。经过上文我们知道，协程是个微线程，既然被堵塞了线程，那协程还能切换并继续运行吗？肯定不行了，因为被一起堵塞了。</li>
+<li><code>asyncio.ensure_future(function)</code> ：可以将协程函数封装成<strong>Task</strong>对象，从而可以使用添加回调函数等操作。</li>
+<li><code>asyncio.get_event_loop()</code>：获取事件循环，自动切换不同任务（遇堵塞就切换任务）。</li>
+<li><code>loop.run_until_complete(function)</code>：将任务添加到循环中，保持运行直到结束任务。</li>
+</ul>
+<hr>
+<p>使用装饰生成器（ <code>@asyncio.coroutine</code> 装饰有 <code>yield from</code> 的函数实现协程），对于**Python3.5+**版本，从实用的角度来看，已经不建议使用了（比如：遇到IO堵塞不会自动切换）。主要原因是 <code>async</code> / <code>await</code> 关键字实现起来比之更简单，且功能更加强大和灵活。<br>
+协程所作的事就是，不断的检查是否发生IO操作等堵塞，如果发生堵塞，那就将CPU资源让给下一位，循环一圈后再来检测是否IO操作等堵塞或者执行完毕。</p>
+<h3 id="greenlet-模块">😮<code>greenlet</code> 模块</h3>
+<p>首先说一说我第一次使用这个模块有什么感受：我感觉我能自由切换想要的程序，而且切换的代码很直观，不过它没法自动跳过IO阻塞。可以预先设置好切换方式，不像之前携程的 <code>send()</code> 方法，使用起来没有那么顺手。<br>
+接下来是一段由上方代码修改后的栗子：</p>
+<pre><code class="language-python">import time
+import greenlet
+from functools import partial
+
+start_steps = [
+    '挂空档',
+    '启动发动机',
+    '打转向灯',
+    '挂1档',
+    '松手刹起步走同时观察'
+]
+
+
+def function(text):
+    while True:
+        print(text, f'\033[31my{int(text[0]) + 1 if int(text[0]) &lt; 5 else 1}.switch()\033[0m')
+        eval(f'y{int(text[0]) + 1 if int(text[0]) &lt; 5 else 1}').switch()
+        time.sleep(0.5)
+
+
+yield1 = partial(function, text=&quot;1、&quot; + start_steps[0])
+yield2 = partial(function, text=&quot;2、&quot; + start_steps[1])
+yield3 = partial(function, text=&quot;3、&quot; + start_steps[2])
+yield4 = partial(function, text=&quot;4、&quot; + start_steps[3])
+yield5 = partial(function, text=&quot;5、&quot; + start_steps[4])
+y1 = greenlet.greenlet(yield1)
+y2 = greenlet.greenlet(yield2)
+y3 = greenlet.greenlet(yield3)
+y4 = greenlet.greenlet(yield4)
+y5 = greenlet.greenlet(yield5)
+y1.switch()
+</code></pre>
+<p>这是他的运行结果，右边是切换方式，有颜色但这上面不好显示，这里偷懒了点，都放一块执行了。</p>
+<pre><code>1、挂空档 y2.switch()
+2、启动发动机 y3.switch()
+3、打转向灯 y4.switch()
+4、挂1档 y5.switch()
+5、松手刹起步走同时观察 y1.switch()
+1、挂空档 y2.switch()
+2、启动发动机 y3.switch()
+3、打转向灯 y4.switch()
+4、挂1档 y5.switch()
+5、松手刹起步走同时观察 y1.switch()
+1、挂空档 y2.switch()
+...
+</code></pre>
+<hr>
+<p>上面使用的是 <code>switch()</code> 不带参数，所以代码可能多了点，下面使用 <code>switch()</code> 传递函数初始值，再来看看：</p>
+<pre><code class="language-python">import time
+import greenlet
+
+start_steps = [
+    '挂空档',
+    '启动发动机',
+    '打转向灯',
+    '挂1档',
+    '松手刹起步走同时观察'
+]
+
+
+def function(text):
+    while True:
+        next_index = int(text[0]) + 1 if int(text[0]) &lt; 5 else 1
+        print(text, f'\033[31my{next_index}.switch(\'{next_index}、{start_steps[next_index - 1]}\')\033[0m')
+        eval(f'y{next_index}').switch(f'{next_index}、{start_steps[next_index - 1]}')
+        time.sleep(0.5)
+
+
+(y1, y2, y3, y4, y5) = (greenlet.greenlet(function) for _ in range(5))
+y1.switch(&quot;1、&quot; + start_steps[0])
+</code></pre>
+<p>这是他的运行结果，右边是切换方式，有颜色但这上面不好显示。我这是越来越偷懒了...</p>
+<pre><code>1、挂空档 y2.switch('2、启动发动机')
+2、启动发动机 y3.switch('3、打转向灯')
+3、打转向灯 y4.switch('4、挂1档')
+4、挂1档 y5.switch('5、松手刹起步走同时观察')
+5、松手刹起步走同时观察 y1.switch('1、挂空档')
+1、挂空档 y2.switch('2、启动发动机')
+2、启动发动机 y3.switch('3、打转向灯')
+3、打转向灯 y4.switch('4、挂1档')
+4、挂1档 y5.switch('5、松手刹起步走同时观察')
+5、松手刹起步走同时观察 y1.switch('1、挂空档')
+1、挂空档 y2.switch('2、启动发动机')
+...
+</code></pre>
+<p>使用下来有几点需要注意：</p>
+<ul>
+<li><code>greenlet</code> 创建之后，一定要结束，不能 <code>switch()</code> 出去就不回来了，否则容易造成内存泄露。</li>
+<li><strong>python</strong> 中每个线程都有自己的主协程 ，不同线程之间的协程是不能相互切换的。</li>
+<li>不能存在循环引用，就是不能你引用我，我引用你。这个是官方文档明确说明：<strong>Greenlets do not participate in garbage collection; cycles involving data that is present in a greenlet's frames will not be detected.</strong> 。</li>
+</ul>
+<h3 id="gevent-模块">😮<code>gevent</code> 模块</h3>
+<h4 id="认识-gevent-模块">🤩认识 <code>gevent</code> 模块</h4>
+<p>自从有了 <code>yield</code> 关键字，协程诞生了，但 <code>yield</code> 关键字设计程序过于复杂并且不具备良好的代码理解。所以 <code>greenlet</code> 模块就出现了，但他仍然继承了 <code>yield</code> 关键字的缺点——无法自动切换IO密集等堵塞情况，还得程序员手动设计代码。<br>
+于是乎， <code>gevent</code> 模块横空出世，既能方便设计出友好的代码，又能自动切换IO密集等堵塞情况，使用也简单，全都添加到主协程上去就可以了。比较适合用于代码没有运行顺序要求（比如并发下载、并发加载网页）的情况。<br>
+提到这个库，不得不先说一下里面的<strong>monkey</strong>插件，他必须写在所有导入库的语句后面，能自动替换掉导入模块中所有会堵塞线程的部分，接下来来看一下他的原理：</p>
+<pre><code class="language-python">import time
+import gevent
+from gevent import time as time_
+from gevent import monkey
+print(time.sleep)
+monkey.patch_all()
+print(time.sleep)
+print(time_.sleep)
+print(gevent.sleep)
+</code></pre>
+<pre><code>&lt;built-in function sleep&gt;
+&lt;function sleep at 0x000001DB61DA6C80&gt;
+&lt;function sleep at 0x000001DB61DA6C80&gt;
+&lt;function sleep at 0x000001DB61DA6C80&gt;
+</code></pre>
+<p>通过这段代码可以看到，原先的 <code>time.sleep</code> 是一个内置的方法，但经过 <code>monkey.patch_all()</code> 后，他就变成了一个自定的函数方法，其原理就是替换模块属性，展示替换过程如下：<br>
+<img src="https://img-blog.csdnimg.cn/0ef701e618e246bbb11a3126703b5ff1.png" alt="在这里插入图片描述" loading="lazy"><br>
+首先会执行<strong>patch</strong>函数：<br>
+<img src="https://img-blog.csdnimg.cn/874f50463b7f47b2999cb969fc51f8a5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_15,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+里面会有个替换模块的方法，再点进去：<br>
+<img src="https://img-blog.csdnimg.cn/4229c85379c848e39829610559d78353.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+此处的<code>gevent_module</code> 就是从 <code>gevent</code> 中对应的模块对象，在此处的例子就是 <code>gevent.time</code> 模块对象；<code>module_name</code> 是模块的名字，在此处的例子就是 <code>time</code> 字符串；<code>target_module</code> 是原模块对象，在此处的例子就是 <code>time</code> 模块对象。<br>
+然后下面的 <code>patch_module</code> 函数就开始正式替换模块的方法：先从 <code>gevent</code> 对应的模块中找到 <code>__implements__</code> 属性，比如 <code>time</code> 的就是如图下所示：<br>
+<img src="https://img-blog.csdnimg.cn/de335b11ef3a4cc88bb9121df89dc537.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_18,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+将 <code>time</code> 的全局属性和方法进行复制，除了堵塞函数方法。<br>
+然后将当前文章里的 <code>sleep</code> 方法用 <code>gevent.hub</code> 中的 <code>sleep</code> 方法替换，实际上 <code>gevent.sleep</code> 和 <code>gevent.time.sleep</code> 是同一个函数方法，内存地址都一模一样。<br>
+<img src="https://img-blog.csdnimg.cn/bd7548e4afa2479bbb1a3a5d6b9de697.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdXNlcl9mcm9tX2Z1dHVyZQ==,size_10,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"><br>
+从这里可以看到整个模块里，有非常多的常见子模块，里面的其他方法可以自己进去看看，基本上都被重写了堵塞方法，让 <code>gevent</code> 能够更加方便的运行。</p>
+<h4 id="多协程并发下载器">🤩多协程并发下载器</h4>
+<p>这边举一个使用多协程实现并发下载的小栗子：</p>
+<pre><code class="language-python">import os
+import re
+import time
+import gevent
+import requests
+from gevent import monkey
+from bs4 import BeautifulSoup
+monkey.patch_all(ssl=False)
+
+
+def download(file, url):
+    if not os.path.isfile(file):
+        img = requests.get(url)
+        f = open(file, 'ab')
+        f.write(img.content)
+        f.close()
+    print(f'{file} 保存成功！')
+
+
+if not os.path.isdir('王者荣耀皮肤'):
+    os.mkdir('王者荣耀皮肤')
+start = time.time()
+html = requests.get('https://pvp.qq.com/web201605/js/herolist.json')
+html.encoding = 'utf-8'
+data = html.json()
+all_gevent = []
+for d in data:
+    html = requests.get(f&quot;https://pvp.qq.com/web201605/herodetail/{d['ename']}.shtml&quot;)
+    html.encoding = 'gbk'
+    soup = BeautifulSoup(html.text, 'html.parser')
+    skins = soup.find('ul', class_='pic-pf-list pic-pf-list3')
+    skin_names = [re.findall(r'[\u4E00-\u9FA5]*', r)[0] for r in str(skins['data-imgname']).split('|')][::-1]
+    for s in range(len(skin_names)):
+        img_url = f&quot;http://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{d['ename']}/{d['ename']}-bigskin-{s+1}.jpg&quot;
+        img_name = f&quot;王者荣耀皮肤\\{d['cname']}_{skin_names[::-1][s]}{img_url[-4:]}&quot;
+        all_gevent.append(gevent.spawn(download, img_name, img_url))
+        # download(img_name, img_url)
+gevent.joinall(all_gevent)
+print(f'共花时间：{time.time() - start:.2f}')
+</code></pre>
+<p>这里是顺序下载所用的时间：</p>
+<figure data-type="image" tabindex="3"><img src="https://img-blog.csdnimg.cn/39802bcbe788460c91cd6a84de4d9792.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://img-blog.csdnimg.cn/f40bff1388a845528d09950d25cac6cb.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>这里是使用了多协程并发下载所用的时间，相当于前面都使用 <code>.start()</code> 最后使用 <code>.join()</code> 堵塞主线程：</p>
+<figure data-type="image" tabindex="5"><img src="https://img-blog.csdnimg.cn/6336149ebdf042ac85876bc3e2fa3e15.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://img-blog.csdnimg.cn/df33e3fdc08c4c829030fb33d183d716.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>都测了两次，发现使用多协程下载所花的时间明显比顺序下载所花的时间少不少时间，磁盘读写都几乎跑满了。</p>
+<h4 id="协程加锁">🤩协程加锁</h4>
+<p><code>gevent</code>  也有锁机制，比如示例如下代码：</p>
+<pre><code class="language-python">import gevent
+from gevent.lock import Semaphore
+
+sem = Semaphore(1)
+public = []
+
+
+def maker1():
+    for i in range(0, 10, 2):
+        sem.acquire()
+        print(f'maker - {i}')
+        public.append(str(i))
+        gevent.sleep(0)
+        sem.release()
+
+
+def maker2():
+    for i in range(1, 11, 2):
+        sem.acquire()
+        print(f'maker - {i}')
+        public.append(str(i))
+        gevent.sleep(0)
+        sem.release()
+
+
+def consumer():
+    for i in range(10):
+        print(f'consumer - {i}（GET {&quot;.&quot;.join(public)}）')
+        gevent.sleep(0)
+
+
+gevent.joinall([
+    gevent.spawn(maker1),
+    gevent.spawn(maker2),
+    gevent.spawn(consumer)
+])
+</code></pre>
+<p>这里的 <code>gevent.joinall()</code> 方法相当于将所有 <code>gevent.spawn()</code> 对象执行一遍 <code>start()</code> 操作，然后在最后等待所有协程完成。<br>
+协程锁 <code>Semaphore</code> 有 <code>__enter__</code> 和 <code>__exit__</code> 两个方法，所以支持上下文管理，可以使用 <code>with</code> 来自动释放。<br>
+在不加锁（所有锁代码注释）时的输出结果是：</p>
+<pre><code>maker - 0
+maker - 1
+consumer - 0（GET 0.1）
+maker - 2
+maker - 3
+consumer - 1（GET 0.1.2.3）
+maker - 4
+maker - 5
+consumer - 2（GET 0.1.2.3.4.5）
+maker - 6
+maker - 7
+consumer - 3（GET 0.1.2.3.4.5.6.7）
+maker - 8
+maker - 9
+consumer - 4（GET 0.1.2.3.4.5.6.7.8.9）
+consumer - 5（GET 0.1.2.3.4.5.6.7.8.9）
+consumer - 6（GET 0.1.2.3.4.5.6.7.8.9）
+consumer - 7（GET 0.1.2.3.4.5.6.7.8.9）
+consumer - 8（GET 0.1.2.3.4.5.6.7.8.9）
+consumer - 9（GET 0.1.2.3.4.5.6.7.8.9）
+</code></pre>
+<p>在加锁时的输出结果是：</p>
+<pre><code>maker - 0
+consumer - 0（GET 0）
+maker - 2
+consumer - 1（GET 0.2）
+maker - 4
+consumer - 2（GET 0.2.4）
+maker - 6
+consumer - 3（GET 0.2.4.6）
+maker - 8
+consumer - 4（GET 0.2.4.6.8）
+consumer - 5（GET 0.2.4.6.8）
+maker - 1
+consumer - 6（GET 0.2.4.6.8.1）
+maker - 3
+consumer - 7（GET 0.2.4.6.8.1.3）
+maker - 5
+consumer - 8（GET 0.2.4.6.8.1.3.5）
+maker - 7
+consumer - 9（GET 0.2.4.6.8.1.3.5.7）
+maker - 9
+</code></pre>
+<p>说明加锁可以有效让部分代码完整执行完再跳到其他代码块，而不会因为堵塞自动切换协程，一般情况下是不需要加锁的，除非是那种特殊情况，需要堵塞到完成才能切换其他任务，真实场景比如写入数据库（不等待完成可能会出现查询不到的情况~）。</p>
+<h4 id="协程池">🤩协程池</h4>
+<p>关于协程池，引入方式为：<code>from gevent.pool import Pool</code> 。<br>
+先举个小栗子：</p>
+<pre><code class="language-python">import os
+import re
+import time
+import requests
+from gevent import monkey
+from gevent.pool import Pool
+from bs4 import BeautifulSoup
+monkey.patch_all(ssl=False)
+
+
+def callback(file):
+    print(f'{file} 保存成功！')
+
+
+def download(file, url):
+    if not os.path.isfile(file):
+        img = requests.get(url)
+        f = open(file, 'ab')
+        f.write(img.content)
+        f.close()
+    return file
+
+
+if not os.path.isdir('王者荣耀皮肤'):
+    os.mkdir('王者荣耀皮肤')
+start = time.time()
+html = requests.get('https://pvp.qq.com/web201605/js/herolist.json')
+html.encoding = 'utf-8'
+data = html.json()
+all_gevent = []
+pool = Pool(200)
+for d in data:
+    html = requests.get(f&quot;https://pvp.qq.com/web201605/herodetail/{d['ename']}.shtml&quot;)
+    html.encoding = 'gbk'
+    soup = BeautifulSoup(html.text, 'html.parser')
+    skins = soup.find('ul', class_='pic-pf-list pic-pf-list3')
+    skin_names = [re.findall(r'[\u4E00-\u9FA5]*', r)[0] for r in str(skins['data-imgname']).split('|')][::-1]
+    for s in range(len(skin_names)):
+        img_url = f&quot;http://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{d['ename']}/{d['ename']}-bigskin-{s+1}.jpg&quot;
+        img_name = f&quot;王者荣耀皮肤\\{d['cname']}_{skin_names[::-1][s]}{img_url[-4:]}&quot;
+        pool.apply_async(download, args=(img_name, img_url), callback=callback)
+print(f'共花时间：{time.time() - start:.2f}')
+</code></pre>
+<p>全部下载完毕所花时间也差不多是三四十秒，偶尔会出现下载很久的情况。个人认为不一定要用协程池，因为协程开销很小，创建很快，对于下载小文件，还没准备创建后面的协程，前面的就下载完毕了，所以这数字可以大，但不可以小，估计有个200下小文件就差不多了，大文件的话可以适当增大。</p>
+<h1 id="多线程程序的简单设计">😉多线程程序的简单设计</h1>
+<p>上面说到协程用了很多内容，主要还是因为协程用起来没有线程常见，多线程一般都使用过吧，简单一行命令就能让程序速度“飞”起来（在IO密集型等任务中）~比较简单好上手。本小节就来讲解线程和线程池的使用方法。</p>
+<h2 id="gil锁">🤗GIL锁</h2>
+<p>说到多线程，就不得不提一下python的 <strong>GIL锁</strong> 机制了。<br>
+<strong>GIL</strong> 全称是 <strong>Global Interpreter Lock</strong> ，<br>
+中文名是 <strong>全局解释器锁</strong> ，<br>
+本质是一把 <strong>互斥锁</strong> ，<br>
+作用是 <strong>将并发运行变成串行运行</strong> ，<br>
+目的是 <strong>保证同一时间内，共享的数据只能被一个任务修改，保证了数据的完整性和安全性</strong> ，<br>
+好处是 <strong>自动上锁和解锁，不需要人为的添加，可以减轻开发人员的负担，有自动垃圾回收的线程</strong> ，<br>
+影响是 <strong>在同一个进程下开启多线程，同一时刻只能有一个线程在运行，效率低下</strong> ，<br>
+即诟病是 <strong>单进程的多线程不能利用多核，效率低下</strong> ，<br>
+对 <strong>计算密集型</strong> 任务不起任何作用，反而会因为线程的开销导致程序变慢，<br>
+解决方案是 <strong>在处理计算密集型任务时，使用多进程；在处理IO密集型任务时，使用多线程</strong> ，<br>
+可以去除吗？<strong>不可以，python的其他许多特性都是利用了GIL锁机制，即使影响了效率也没办法去除（曾今有实验去除，但以失败告终）</strong> 。</p>
+<h2 id="多线程模块">🤗多线程模块</h2>
+<ul>
+<li><code>_thread</code> 模块</li>
+<li><code>threading</code> 模块</li>
+</ul>
+<p>一般不用 <code>_thread</code> 模块，本文直接使用它的升级版—— <code>threading</code> 模块。</p>
+<h2 id="启动多线程-多线程加锁">🤗启动多线程、多线程加锁</h2>
+<p>由于 <code>threading</code> 模块主要被设计用于 <strong>IO密集型</strong> 任务，使用 <code>threading.__all__</code> 能看到所有支持的对象、属性和方法。这里先简单看一下线程有哪些常用的对象、属性和方法：</p>
+<ul>
+<li><code>threading.Lock</code> ：互斥锁</li>
+<li><code>threading.Event</code> ：事件对象（相当于全局 <code>Flag</code> 布尔值）</li>
+<li><code>threading.Thread</code> ：线程对象</li>
+<li><code>threading.enumerate()</code> ：所有正在运行的线程实例（包括主线程）[未启动、已结束的线程不在其中]</li>
+<li><code>threading.active_count()</code> ：列表 <code>threading.enumerate()</code> 的长度</li>
+<li><code>threading.Thread(target=function).setDaemon(True)</code>：当 <code>daemon</code> 设置为 <code>True</code> 时，主线程结束会杀死该子线程（守护线程），默认是 <code>False</code> ，即主线程结束，子线程不会结束。（必须在线程 <strong>启动前</strong> 设置！）</li>
+<li><code>threading.Thread(target=function).start()</code> ：启动线程</li>
+<li><code>threading.Thread(target=function).join()</code> ：逐个执行线程（等上一个线程执行完再执行这个线程），此时会堵塞线程，使多线程变得无意义。</li>
+</ul>
+<p>需要注意，使用 <code>threading.Thread</code> 创建线程时应该始终使用关键字参数 <code>key=value</code> 的形式传递参数，首先从其源代码 <strong>This constructor should always be called with keyword arguments.</strong> 可以看出；其次对于常用的 <code>threading.Thread(target=function, args=()).start()</code> 传递 <code>target</code> 和 <code>args</code> 两个参数的时候，其定义方式：<code>def __init__(self, group=None, target=None, name=None, args=(), kwargs=None, *, daemon=None):</code> 中 <code>target</code> 的位置并不是在首位，所以直接使用位置参数容易出错。</p>
+<p>此处采用多线程下载，来展现多线程的魅力，示例代码如下：</p>
+<pre><code class="language-python">import os
+import re
+import time
+import requests
+import threading
+from bs4 import BeautifulSoup
+
+
+def download(file, url):
+    if not os.path.isfile(file):
+        img = requests.get(url)
+        f = open(file, 'ab')
+        f.write(img.content)
+        f.close()
+    print(f'{file} 保存成功！')
+
+
+if not os.path.isdir('王者荣耀皮肤'):
+    os.mkdir('王者荣耀皮肤')
+start = time.time()
+html = requests.get('https://pvp.qq.com/web201605/js/herolist.json')
+html.encoding = 'utf-8'
+data = html.json()
+for d in data:
+    html = requests.get(f&quot;https://pvp.qq.com/web201605/herodetail/{d['ename']}.shtml&quot;)
+    html.encoding = 'gbk'
+    soup = BeautifulSoup(html.text, 'html.parser')
+    skins = soup.find('ul', class_='pic-pf-list pic-pf-list3')
+    skin_names = [re.findall(r'[\u4E00-\u9FA5]*', r)[0] for r in str(skins['data-imgname']).split('|')][::-1]
+    for s in range(len(skin_names)):
+        img_url = f&quot;http://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{d['ename']}/{d['ename']}-bigskin-{s+1}.jpg&quot;
+        img_name = f&quot;王者荣耀皮肤\\{d['cname']}_{skin_names[::-1][s]}{img_url[-4:]}&quot;
+        threading.Thread(target=download, args=(img_name, img_url), daemon=True).start()
+while threading.active_count() - 1:
+    time.sleep(0.1)
+print(f'共花时间：{time.time() - start:.2f}')
+</code></pre>
+<p>由于 <code>threading.enumerate()</code> 返回的列表中至少包含了主线程，所以当所有线程减一大于 1 的时候，仍然有子线程在下载。<br>
+多线程下载的时间有点不一样，时间在 25 秒或 50 秒左右（我更愿意相信 25 秒左右是个意外，正常线程调度起来比协程消耗资源，应该稍慢于协程才对，但我下了不少遍，出现 25 秒左右的次数虽然不多，但也有几次，绝非一次的偶然）。<br>
+这里采用了最常见的线程启动方法， <code>threading.Thread(target=function).start()</code> 方法，还有一种方法仍然常见，就是重写 <code>threading.Thread</code> 线程对象中的 <code>run()</code> 方法以执行函数：</p>
+<pre><code class="language-python">import time
+import threading
+
+
+class Threading(threading.Thread):
+    def __init__(self, index, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.index = index
+
+    def run(self) -&gt; None:
+        print(f'开始运行线程: {self.index}')
+        time.sleep(0.5)
+        print(f'继续运行线程: {self.index}')
+
+    def __call__(self):
+        self.start()
+
+
+Threading(1)()
+Threading(2)()
+Threading(3)()
+</code></pre>
+<p>这里采用 <code>__call__(self)</code> 方法自动调用原先的 <code>start()</code> 方法（为了凸显博主和其他人不一样~），来看看结果：<br>
+<img src="https://img-blog.csdnimg.cn/9913aa32774e449f97feea678bfdf583.png" alt="在这里插入图片描述" loading="lazy"><br>
+发现线程正常运行了，还发现顺序错乱、打印单行的现象，这正好证明的线程的特点：</p>
+<ul>
+<li>线程执行起来是无序的，是由操作系统随机调度，由于多线程一般用于下载，所以很容易无多线程的视执行顺序问题。</li>
+<li>线程在不加锁的时候，容易出现没打印完就开始打印下一条的情况，所以尽量在 <code>print()</code> 前后加锁、释放锁：（创建锁对象： `lock = threading.Lock()`` ）<br>
+<img src="https://img-blog.csdnimg.cn/c80056d3cc384f3c8098c2a49164a629.png" alt="在这里插入图片描述" loading="lazy"></li>
+<li>比如这样，打印起来肯定是行行分开，不会再连在一起了。<br>
+线程锁 <code>threading.Lock</code> 有 <code>__enter__</code> 和 <code>__exit__</code> 两个方法，所以支持上下文管理，可以使用 <code>with</code> 来自动释放。</li>
+</ul>
+<h2 id="线程池">🤗线程池</h2>
+<p>顾名思义，多线程池就是将线程放进一个池子，设置一定的限制，比如最大同时运行多少线程，防止电脑负载太重。<br>
+曾今有个模块 <code>threadpool</code> 专门用于提供线程池，但现在已经被弃用，现在引用标准库中的线程池模块： <code>from concurrent.futures import ThreadPoolExecutor</code><br>
+创建线程池有两种方式，一种是普通创建：<code>pool = ThreadPoolExecutor(max_workers=8)</code> ，其中 <code>max_workers</code> 代表线程池内最大线程数量（不包括主线程），提交任务使用 <code>Executor.submit(self, fn, *args, **kwargs)</code> 方法，其中 <code>fn</code> 是函数名，后面跟函数所需的参数。在不想提交新任务时应执行 <code>shutdown()</code> 操作，节省内存空间。<br>
+如果你不想每次使用都执行 <code>shutdown()</code> 操作，<code>ThreadPoolExecutor</code> 实现了上下文管理协议，可以使用 <code> with ThreadPoolExecutor(max_workers=8) as pool:</code> 来使用，跳出 <code>with</code> 代码块之后，线程池会自动执行 <code>shutdown()</code> 操作。<br>
+另外 <code>shutdown</code> 默认是会等待所有子线程结束。<br>
+注意 <code>ThreadPoolExecutor</code> 对象不能获取实例化对象方法的结果，原因是不能 <code>pickle</code> ，只能调用非类中的方法，或者类中的@staticmethod方法。<br>
+仍然使用上面并发下载程序，将正常的线程启动方式变成线程池提交后，使用如下代码：</p>
+<pre><code class="language-python">import os
+import re
+import time
+import requests
+from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor
+
+
+def download(file, url):
+    if not os.path.isfile(file):
+        img = requests.get(url)
+        f = open(file, 'ab')
+        f.write(img.content)
+        f.close()
+    print(f'{file} 保存成功！')
+
+
+if not os.path.isdir('王者荣耀皮肤'):
+    os.mkdir('王者荣耀皮肤')
+start = time.time()
+html = requests.get('https://pvp.qq.com/web201605/js/herolist.json')
+html.encoding = 'utf-8'
+data = html.json()
+pool = ThreadPoolExecutor(max_workers=8)
+for d in data:
+    html = requests.get(f&quot;https://pvp.qq.com/web201605/herodetail/{d['ename']}.shtml&quot;)
+    html.encoding = 'gbk'
+    soup = BeautifulSoup(html.text, 'html.parser')
+    skins = soup.find('ul', class_='pic-pf-list pic-pf-list3')
+    skin_names = [re.findall(r'[\u4E00-\u9FA5]*', r)[0] for r in str(skins['data-imgname']).split('|')][::-1]
+    for s in range(len(skin_names)):
+        img_url = f&quot;http://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{d['ename']}/{d['ename']}-bigskin-{s+1}.jpg&quot;
+        img_name = f&quot;王者荣耀皮肤\\{d['cname']}_{skin_names[::-1][s]}{img_url[-4:]}&quot;
+        pool.submit(download, img_name, img_url)
+pool.shutdown()
+print(f'共花时间：{time.time() - start:.2f}')
+</code></pre>
+<p>我发现他下载的越来越稳定了，而且更快，只需 30 秒左右。<br>
+经过多次对最大线程数 <code>max_workers</code> 的测试，我对最大线程数的理解是这样的，当你图片下载到线程池最后一个的时候，第一个线程刚刚下载完腾出线程位置，这样安排线程的开销最小，下载速度最快。所以在设计多线程程序时，要<strong>合理安排线程数量，避免过少或过多的线程数</strong>，否则反而会更慢，变得得不偿失。</p>
+<h2 id="线程间通信">🤗线程间通信</h2>
+<p>最简单的就是事件通信，常用 <code>threading.Event</code> 对象表示一个全局 <code>Flag</code> 布尔值：</p>
+<pre><code class="language-python">import time
+import threading
+
+
+def callback(res):
+    print(f'{res}  \t[当前用时：{time.time() - now:.2f}秒]')
+
+
+def boil_water():
+    print(&quot;开始烧水...&quot;)
+    time.sleep(10)
+    callback(&quot;水烧开了&quot;)
+
+
+def wash_vegetables():
+    print(&quot;叫孩子过来洗菜...&quot;)
+    time.sleep(20)
+    callback(&quot;菜洗好了&quot;)
+
+
+def cook():
+    print(&quot;开始热饭...&quot;)
+    time.sleep(40)
+    fan.set()
+    callback(&quot;饭热好了&quot;)
+
+
+def cooking():
+    while task3.is_alive():
+        time.sleep(0.2)
+    print(&quot;开始烧菜...&quot;)
+    time.sleep(30)
+    cai.set()
+    callback(&quot;菜烧好了&quot;)
+
+
+def set_the_cutlery():
+    while task3.is_alive():
+        time.sleep(0.2)
+    print(&quot;叫孩子过来摆放餐具...&quot;)
+    time.sleep(4)
+    tool.set()
+    callback(&quot;餐具摆放好了&quot;)
+
+
+def have_a_meal():
+    cai.wait()
+    fan.wait()
+    tool.wait()
+    print(&quot;开始吃饭...&quot;)
+    time.sleep(15)
+
+
+now = time.time()
+cai = threading.Event()  # 是否烧好菜
+fan = threading.Event()  # 是否热好饭
+tool = threading.Event()  # 是否摆放好餐具
+print('一个家庭吃一顿饭的全过程。  \t[当前用时：0.0 秒]')
+task1 = threading.Thread(target=cook)
+task2 = threading.Thread(target=boil_water)
+task3 = threading.Thread(target=wash_vegetables)
+task4 = threading.Thread(target=cooking)
+task5 = threading.Thread(target=set_the_cutlery)
+task6 = threading.Thread(target=have_a_meal)
+for task in [task1, task2, task3, task4, task5, task6]:
+    task.start()
+while threading.active_count() - 1:
+    time.sleep(0.1)
+print(f'很满足这一顿饭~  \t[总共用时：{time.time() - now:.2f}秒]')
+</code></pre>
+<p><code>threading.Event</code> 对象的全部方法有：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">方法</th>
+<th style="text-align:center">中文速记</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>wait(timeout=None)</code></td>
+<td style="text-align:center">等待</td>
+<td style="text-align:center">等待事件标记为 <code>True</code> ，否则会一直堵塞。<br>设置 <code>timeout</code> 参数可以设置最长堵塞多久。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>set()</code></td>
+<td style="text-align:center">设置</td>
+<td style="text-align:center">设置事件标记，即事件标记为 <code>True</code> 。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>clear()</code></td>
+<td style="text-align:center">清除</td>
+<td style="text-align:center">清除事件标记，即事件标记为 <code>False</code> 。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>is_set()</code></td>
+<td style="text-align:center">查询</td>
+<td style="text-align:center">查询事件标志是否设置，即获取事件标记的布尔值。</td>
+</tr>
+</tbody>
+</table>
+<p>其他通信当然是使用队列啦，上小例子：</p>
+<pre><code class="language-python">import time
+import threading
+from queue import Queue
+
+
+def maker1():
+    for i in range(0, 10, 2):
+        q.put(str(i))
+        print(f'maker - {i}')
+
+
+def maker2():
+    for i in range(1, 11, 2):
+        q.put(str(i))
+        print(f'maker - {i}')
+
+
+def consumer():
+    for i in range(10):
+        print(f'consumer - {i}（GET {q.get()}）')
+
+
+q = Queue(maxsize=2)
+threading.Thread(target=maker1).start()
+threading.Thread(target=maker2).start()
+threading.Thread(target=consumer).start()
+while threading.active_count() - 1:
+    time.sleep(0.1)
+q.task_done()
+</code></pre>
+<p>输出结果：</p>
+<pre><code>maker - 0
+maker - 2
+consumer - 0（GET 0）
+consumer - 1（GET 2）
+maker - 4
+consumer - 2（GET 4）
+maker - 1
+maker - 6
+consumer - 3（GET 1）
+maker - 3
+consumer - 4（GET 6）
+maker - 8
+consumer - 5（GET 3）
+consumer - 6（GET 8）
+maker - 5
+consumer - 7（GET 5）
+maker - 7
+maker - 9
+consumer - 8（GET 7）
+consumer - 9（GET 9）
+</code></pre>
+<p><code>Queue</code> 队列是用来处理线程间信息交流安全的，<code>maxsize</code> 设置最大队列长度，原理就是堵塞，直到输入写入队列，或者直到读取出队列，常用 <code>put()</code> 入栈和 <code>get()</code> 出栈操作，先入先出，后入后出，能完美满足 <strong>生产者—消费者</strong> 模型，另外还能通过 <code>qsize()</code> 来查看队列中还有多少的数据。一般都会在使用完队列后执行 <code>task_done()</code> 释放内存，像这种直接能结束的程序可以不加。<br>
+因为多线程顺序不定加上没有加锁的原因，他的顺序可能会比较乱，而且会出现挤在一行输出的情况，那些都是小问题~</p>
+<p>在线程中除了用 <code>threading.active_count() - 1</code> 判断是否所有子线程结束再继续主线程，还可以在所有线程 <code>start()</code> 后再 <code>join()</code> 一遍，全都堵塞在主线程等待子线程结束。</p>
+<h2 id="线程安全">🤗线程安全</h2>
+<p>都说 <strong>GIL锁</strong> 机制就是为了保护线程安全的，可它真的能100%保证线程的安全吗？答案是否定的。<br>
+来看下面的简单例子：</p>
+<pre><code class="language-python">import time
+import threading
+
+
+class Account:
+    def __init__(self, account_no, balance):
+        self.account_no = account_no
+        self.balance = balance
+
+
+def draw(account, draw_amount):
+    if account.balance &gt;= draw_amount:
+        print(threading.current_thread().name + &quot; 成功！吐出钞票:&quot; + str(draw_amount))
+        time.sleep(0.001)  # 模拟取钱时的等待操作
+        account.balance -= draw_amount
+        print(threading.current_thread().name + &quot; 后，余额为: &quot; + str(account.balance))
+    else:
+        print(threading.current_thread().name + &quot; 失败！余额不足！&quot;)
+
+
+acc = Account(&quot;123456789&quot;, 1000)
+threading.Thread(name='从银行卡取钱', target=draw, args=(acc, 800)).start()
+threading.Thread(name='发银行卡红包', target=draw, args=(acc, 800)).start()
+</code></pre>
+<p>猜猜结果是什么？<br>
+没错，就是余额为负！</p>
+<pre><code>从银行卡取钱 成功！吐出钞票:800
+发银行卡红包 成功！吐出钞票:800
+	余额为: 200
+	余额为: -600
+</code></pre>
+<p>银行要是能这样，那估计得倒闭，所以多线程并无法实现绝对的线程安全，更多是要开发者们自己注意逻辑情况。<br>
+遇到这种情况有解决方案吗？有！就是在判断余额前加锁，保证同时只判断一次的同步操作：</p>
+<pre><code class="language-python">import time
+import threading
+
+
+class Account:
+    def __init__(self, account_no, balance):
+        self.account_no = account_no
+        self.balance = balance
+
+
+def draw(account, draw_amount):
+    with lock:
+        if account.balance &gt;= draw_amount:
+            print(threading.current_thread().name + &quot; 成功！吐出钞票:&quot; + str(draw_amount))
+            time.sleep(0.001)  # 模拟取钱时的等待操作
+            account.balance -= draw_amount
+            print(threading.current_thread().name + &quot; 后，余额为: &quot; + str(account.balance))
+        else:
+            print(threading.current_thread().name + &quot; 失败！余额不足！&quot;)
+
+
+acc = Account(&quot;1234567&quot;, 1000)
+lock = threading.Lock()
+threading.Thread(name='从银行卡取钱', target=draw, args=(acc, 800)).start()
+threading.Thread(name='发银行卡红包', target=draw, args=(acc, 800)).start()
+</code></pre>
+<p>这下取钱就正常了：</p>
+<pre><code>从银行卡取钱 成功！吐出钞票:800
+从银行卡取钱 后，余额为: 200
+发银行卡红包 失败！余额不足！
+</code></pre>
+<p>两个任务反一下就会变成：</p>
+<pre><code>发银行卡红包 成功！吐出钞票:800
+发银行卡红包 后，余额为: 200
+从银行卡取钱 失败！余额不足！
+</code></pre>
+<p>基本上是谁先谁就能抢到锁并执行完。</p>
+<h1 id="多进程程序的简单设计">😉多进程程序的简单设计</h1>
+<p>有句话说的好，“<strong>多进程才是真并行</strong>”，这是 <strong>python</strong> 中&quot;绕过&quot; <strong>GIL锁</strong> 的普遍方式，如果你不想更换 <code>CPython</code> 为其他版本或者用其他语言实现再链接到代码中的话。<br>
+多进程模块是众所周知的 <code>multiprocessing</code> 模块，一般进程会分配独立的空间，所以互相之间不会打扰。<br>
+多进程和多线程比较类似，都有 <code>start()</code> 、 <code>join()</code> 、 <code>is_alive()</code> 等常见方法。<br>
+多进程和多线程一样，不仅可以通过函数的方法创建进程，还能用继承并重写 <code>run()</code> 方法的方式创建进程</p>
+<p>写到这里，它都已经开始提醒我了，但我偏不，我就要写，能一次发完就不分两次发~😜😝</p>
+<p><img src="https://img-blog.csdnimg.cn/6b2dc08ce4fd4441bed1bf56baa0474e.png" alt="在这里插入图片描述" loading="lazy"><br>
+但这里还是决定少写点，毕竟多进程用的不算很多。</p>
+<h2 id="启动多进程-多进程加锁-多进程通信">🤗启动多进程、多进程加锁、多进程通信</h2>
+<p>在使用多进程的时候要注意在 <code>if __name__ == '__main__':</code> 下启动多进程，否则他会报错如下：<br>
+<img src="https://img-blog.csdnimg.cn/8165728828e04d16b617ee172218cc54.png" alt="在这里插入图片描述" loading="lazy"><br>
+而且他会每个进程执行 <code>if __name__ == '__main__':</code> 上面的部分。这段话意思就是说不让你直接使用多进程，除非证明你是本身程序在运行而不是被调用的时候运行，防止你进程开的太多电脑卡住，防止盲目启动（个人理解）。<br>
+先用一段代码弄清除多进程是如何工作的：</p>
+<pre><code class="language-python">from multiprocessing import Process
+print('init')
+
+
+def add_num(num):
+    pass
+
+
+if __name__ == '__main__':
+    print('main')
+    Process(target=add_num, args=(999, )).start()
+    Process(target=add_num, args=(9999, )).start()
+    Process(target=add_num, args=(99999, )).start()
+    Process(target=add_num, args=(999999, )).start()
+</code></pre>
+<p>它的执行结果是：</p>
+<p><img src="https://img-blog.csdnimg.cn/1c92bb1e23fe43ffa6bcbbbbd7c7ea00.png" alt="在这里插入图片描述" loading="lazy"><br>
+发现<strong>main</strong>只执行了一次，而<strong>init</strong>在初始化的时候先执行了一次，之后每次子线程启动都会执行一次，这个需要注意。<br>
+然后不用进程池是不太方便并发下载了（谁用谁作死，好在下载的只是图片，要是下载视频...那534个视频就会创建534个线程，就算是服务器也hold不住吧~），那就来个使用多进程的反面教材：</p>
+<pre><code class="language-python">from multiprocessing import Process
+number = 0
+
+
+def add_num(num):
+    global number
+    number += num
+    print(number)
+
+
+if __name__ == '__main__':
+    Process(target=add_num, args=(999, )).start()
+    Process(target=add_num, args=(9999, )).start()
+    Process(target=add_num, args=(99999, )).start()
+    Process(target=add_num, args=(999999, )).start()
+</code></pre>
+<p>你们以为的结果是不是：</p>
+<pre><code>999
+10998
+110997
+1110996
+</code></pre>
+<p>No，No，No，它的结果是：</p>
+<figure data-type="image" tabindex="7"><img src="https://img-blog.csdnimg.cn/a5347fff41c647b289380fd315834f4d.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>是不是感觉既在意料之外，又在情理之中？<br>
+上面我们说到，进程之间相互独立，有自己的空间，并会自己复制一份变量地址，具体为什么，打印一下程序中 <code>number</code> 的 <code>id</code> 值就知道了：</p>
+<figure data-type="image" tabindex="8"><img src="https://img-blog.csdnimg.cn/dabb72fa4f134d3ea94306891d91b9e2.png" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>四个完全不一样对吧，再对比一下 <code>num</code> 的 <code>id</code> 和数字的 <code>id</code> 值：</p>
+<pre><code class="language-python">from multiprocessing import Process
+number = 0
+
+
+def add_num(num):
+    global number
+    print('num id : ', id(num))
+    print('number id : ', id(number))
+    number += num
+
+
+if __name__ == '__main__':
+    print(id(999))
+    print(id(9999))
+    print(id(99999))
+    print(id(999999))
+    print('----------')
+    Process(target=add_num, args=(999, )).start()
+    Process(target=add_num, args=(9999, )).start()
+    Process(target=add_num, args=(99999, )).start()
+    Process(target=add_num, args=(999999, )).start()
+</code></pre>
+<p>结果：<br>
+<img src="https://img-blog.csdnimg.cn/5f9391d7d34b4292ac26c063fee221b4.png" alt="在这里插入图片描述" loading="lazy"><br>
+发现所有 <code>id</code> 完全不一样，因为一开始打印的数字 <code>id</code> 是主线程中的数字 <code>id</code> ，而线程中打印的分别是每个线程所处空间中的 <code>id</code> ，所以一样才怪。<br>
+此时我们必须使用进程间的通信才可以：</p>
+<pre><code class="language-python">from multiprocessing import Process, Queue
+
+
+def add_num(num, q):
+    number = q.get()
+    number += num
+    print(number)
+    q.put(number)
+
+
+if __name__ == '__main__':
+    queue = Queue()
+    queue.put(0)
+    Process(target=add_num, args=(999, queue)).start()
+    Process(target=add_num, args=(9999, queue)).start()
+    Process(target=add_num, args=(99999, queue)).start()
+    Process(target=add_num, args=(999999, queue)).start()
+</code></pre>
+<p>由于子进程的调用机制，这里需要将队列传进参数中（传入一个列表，结果发现里面每个列表的 <code>id</code> 值都不一样！），虽然有点小复杂，但好在最后的结果是我们想要的。</p>
+<p><img src="https://img-blog.csdnimg.cn/42d0437545e94536acbc2a45c0bcbea7.png" alt="在这里插入图片描述" loading="lazy"><br>
+为了防止加的时候出现和线程一样的安全问题，我们采用进程锁来管理：</p>
+<pre><code class="language-python">from multiprocessing import Process, Queue, Lock
+
+
+def add_num(num, q, l):
+    with l:
+        number = q.get()
+        number += num
+        print(number)
+        q.put(number)
+
+
+if __name__ == '__main__':
+    lock = Lock()
+    queue = Queue()
+    queue.put(0)
+    Process(target=add_num, args=(999, queue, lock)).start()
+    Process(target=add_num, args=(9999, queue, lock)).start()
+    Process(target=add_num, args=(99999, queue, lock)).start()
+    Process(target=add_num, args=(999999, queue, lock)).start()
+</code></pre>
+<h2 id="进程池">🤗进程池</h2>
+<p>使用进程池就可以多进程下载了，而且还能回调，小栗子如下：</p>
+<pre><code class="language-python">import os
+import re
+import time
+import requests
+from bs4 import BeautifulSoup
+from multiprocessing import Pool
+
+
+def callback(file):
+    print(f'{file} 保存成功！')
+
+
+def download(file, url):
+    if not os.path.isfile(file):
+        img = requests.get(url)
+        f = open(file, 'ab')
+        f.write(img.content)
+        f.close()
+    return file
+
+
+if __name__ == '__main__':
+    pool = Pool(maxtasksperchild=8)
+    if not os.path.isdir('王者荣耀皮肤'):
+        os.mkdir('王者荣耀皮肤')
+    start = time.time()
+    html = requests.get('https://pvp.qq.com/web201605/js/herolist.json')
+    html.encoding = 'utf-8'
+    data = html.json()
+    for d in data:
+        html = requests.get(f&quot;https://pvp.qq.com/web201605/herodetail/{d['ename']}.shtml&quot;)
+        html.encoding = 'gbk'
+        soup = BeautifulSoup(html.text, 'html.parser')
+        skins = soup.find('ul', class_='pic-pf-list pic-pf-list3')
+        skin_names = [re.findall(r'[\u4E00-\u9FA5]*', r)[0] for r in str(skins['data-imgname']).split('|')][::-1]
+        for s in range(len(skin_names)):
+            img_url = f&quot;http://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{d['ename']}/{d['ename']}-bigskin-{s+1}.jpg&quot;
+            img_name = f&quot;王者荣耀皮肤\\{d['cname']}_{skin_names[::-1][s]}{img_url[-4:]}&quot;
+            pool.apply_async(download, args=(img_name, img_url), callback=callback)
+    pool.close()
+    pool.join()
+    print(f'共花时间：{time.time() - start:.2f}')
+</code></pre>
+<p>最后的 <code>pool.close()</code> 方法是为了让进程池不再接受信的请求，然后才能执行 <code>pool.join()</code> 堵塞主进程并等待子进程结束。<br>
+完美下载！</p>
+<h1 id="总结">😉总结</h1>
+<p>协程、线程、进程的简单小对比：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">某程</th>
+<th style="text-align:center">性能消耗</th>
+<th style="text-align:center">上手难度</th>
+<th style="text-align:center">优点</th>
+<th style="text-align:center">缺点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">协程</td>
+<td style="text-align:center">低</td>
+<td style="text-align:center">困难</td>
+<td style="text-align:center">开销小、性能高、有返回值</td>
+<td style="text-align:center">调试复杂、较为困难</td>
+</tr>
+<tr>
+<td style="text-align:center">线程</td>
+<td style="text-align:center">中</td>
+<td style="text-align:center">容易</td>
+<td style="text-align:center">创建简单、上手容易</td>
+<td style="text-align:center">无返回值、GIL锁使并行变并发</td>
+</tr>
+<tr>
+<td style="text-align:center">进程</td>
+<td style="text-align:center">高</td>
+<td style="text-align:center">均衡</td>
+<td style="text-align:center">解决GIL锁无法并行的问题、<br>运行稳定、可以真正实现并行</td>
+<td style="text-align:center">无返回值、变量完全隔离难联系、<br>进程间相对于其他方式比较消耗性能</td>
+</tr>
+</tbody>
+</table>
+<p>一般只有计算密集型任务才用多线程，相对其他其他情况而言，线程和协程使用的效果会更好（并发下载、并发socket、并发网络访问等）。</p>
+<h1 id="结束语">😉结束语</h1>
+<p>感谢您能阅读到文末此处~ 下面没有东西咯，恭喜学完了全套基础设计，记得勤加练习实践哦~<br>
+我有一个大胆的想法，不如请您把您收藏的其他有关多任务的文章全都取消收藏，仅收藏本文？😃😄😂🤣<br>
+给自己凑一个好看的数字吧：<br>
+<img src="https://img-blog.csdnimg.cn/d056b2ede3ee49f5b0ea51c5ed39e992.png" alt="在这里插入图片描述" loading="lazy"></p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li><a href="#%E5%89%8D%E8%A8%80">😉前言</a></li>
+<li><a href="#%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D">😉概念介绍</a>
+<ul>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">🤗进程、线程、协程之间的区别</a>
+<ul>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">😮进程、线程之间的区别</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">😮线程、协程之间的区别</a></li>
+</ul>
+</li>
+<li><a href="#%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB">🤗进程、线程、协程之间的联系</a></li>
+<li><a href="#%E5%A4%9A%E8%BF%9B%E7%A8%8B-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%8D%8F%E7%A8%8B%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9">🤗多进程、多进程与协程的优缺点</a></li>
+<li><a href="#%E4%B8%B2%E8%A1%8C-%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%B9%B6%E5%8F%91%E7%9A%84%E5%8C%BA%E5%88%AB">🤗串行、并行与并发的区别</a></li>
+<li><a href="#%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E-%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E5%8C%BA%E5%88%AB">🤗同步、异步与阻塞、非阻塞的区别</a></li>
+<li><a href="#%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E-%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E8%81%94%E7%B3%BB">🤗同步、异步与阻塞、非阻塞的联系</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉协程程序的简单设计</a>
+<ul>
+<li><a href="#%E5%85%88%E7%AE%80%E5%8D%95%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B%E7%94%9F%E6%88%90%E5%99%A8">🤗先简单了解一下生成器</a></li>
+<li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%9F%E6%88%90%E5%99%A8%E5%AF%B9%E8%B1%A1%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E8%BF%99%E4%B9%88%E5%B0%8F">🤗为什么生成器对象占用内存这么小</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%9E%E7%94%9F">🤗一个协程程序的诞生</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E6%8E%A5%E6%94%B6%E6%95%B0%E6%8D%AE%E5%8D%8F%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%9E%E7%94%9F">🤗一个可以用来接收数据协程程序的诞生</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E7%A8%8D%E5%BE%AE%E5%AE%9E%E9%99%85%E4%B8%80%E7%82%B9%E7%9A%84%E4%BE%8B%E5%AD%90">🤗一个稍微实际一点的例子</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E7%94%9F%E6%88%90%E5%99%A8%E4%B8%AD%E9%9C%80%E8%A6%81%E7%BB%88%E6%AD%A2%E7%94%9F%E6%88%90%E6%8F%90%E5%89%8D%E7%BB%93%E6%9D%9F">🤗关于生成器中需要终止生成提前结束</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E4%B8%8A%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%B0%8F%E6%A0%97%E5%AD%90">🤗关于上面生成器的两个小栗子</a>
+<ul>
+<li><a href="#yield-%E4%B8%8E-return-%E5%85%B1%E5%AD%98">😮<code>yield</code> 与 <code>return</code> 共存</a></li>
+<li><a href="#for-%E5%BE%AA%E7%8E%AF%E4%B8%AD-next-%E6%93%8D%E4%BD%9C">😮<code>for</code> 循环中 <code>next</code> 操作</a></li>
+<li><a href="#%E6%A0%97%E5%AD%90%E8%A7%A3%E7%AD%94">😮栗子解答</a></li>
+</ul>
+</li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E5%8D%8F%E7%A8%8B%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8">🤗常见协程库的使用</a>
+<ul>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E6%A8%A1%E5%9D%97%E6%9C%89%E5%93%AA%E4%BA%9B">😮协程模块有哪些</a></li>
+<li><a href="#asyncio-%E6%A8%A1%E5%9D%97%E4%B8%8E-async-await-%E5%85%B3%E9%94%AE%E5%AD%97">😮<code>asyncio</code> 模块与 <code>async</code> / <code>await</code> 关键字</a></li>
+<li><a href="#greenlet-%E6%A8%A1%E5%9D%97">😮<code>greenlet</code> 模块</a></li>
+<li><a href="#gevent-%E6%A8%A1%E5%9D%97">😮<code>gevent</code> 模块</a>
+<ul>
+<li><a href="#%E8%AE%A4%E8%AF%86-gevent-%E6%A8%A1%E5%9D%97">🤩认识 <code>gevent</code> 模块</a></li>
+<li><a href="#%E5%A4%9A%E5%8D%8F%E7%A8%8B%E5%B9%B6%E5%8F%91%E4%B8%8B%E8%BD%BD%E5%99%A8">🤩多协程并发下载器</a></li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E5%8A%A0%E9%94%81">🤩协程加锁</a></li>
+<li><a href="#%E5%8D%8F%E7%A8%8B%E6%B1%A0">🤩协程池</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉多线程程序的简单设计</a>
+<ul>
+<li><a href="#gil%E9%94%81">🤗GIL锁</a></li>
+<li><a href="#%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9D%97">🤗多线程模块</a></li>
+<li><a href="#%E5%90%AF%E5%8A%A8%E5%A4%9A%E7%BA%BF%E7%A8%8B-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%8A%A0%E9%94%81">🤗启动多线程、多线程加锁</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E6%B1%A0">🤗线程池</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1">🤗线程间通信</a></li>
+<li><a href="#%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8">🤗线程安全</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1">😉多进程程序的简单设计</a>
+<ul>
+<li><a href="#%E5%90%AF%E5%8A%A8%E5%A4%9A%E8%BF%9B%E7%A8%8B-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%8A%A0%E9%94%81-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">🤗启动多进程、多进程加锁、多进程通信</a></li>
+<li><a href="#%E8%BF%9B%E7%A8%8B%E6%B1%A0">🤗进程池</a></li>
+</ul>
+</li>
+<li><a href="#%E6%80%BB%E7%BB%93">😉总结</a></li>
+<li><a href="#%E7%BB%93%E6%9D%9F%E8%AF%AD">😉结束语</a></li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Mr. Gao的个人博客</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://gaojj2000.github.io/post/multitasking/">https://gaojj2000.github.io/post/multitasking/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gaojj2000.github.io/post/multitasking/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://gaojj2000.github.io/post/multitasking/&sharesource=qzone&title=关于python多任务设计基础&pics=https://gaojj2000.github.io/images/avatar.png?v=1754812031243&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://gaojj2000.github.io/post/multitasking/&sharesource=weibo&title=关于python多任务设计基础 + " - " + &pic="https://gaojj2000.github.io/images/avatar.png?v=1754812031243 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://gaojj2000.github.io/tag/python/">#
+                    Python
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://gaojj2000.github.io/post/lambda/">
+                                                                                            Python中的lambda
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://gaojj2000.github.io/post/python_histroy/">
+                                                                                                    与Python的点点滴滴
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Mr. Gao的个人博客 &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/gaojj2000" target="_blank">
+                                                gaojj2000
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '后来我们的爱(萝卜版)',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmJCQUFBQUFBQmZyMEFTMXFIWGc3WlRDOW85VGE5VHc_ZT1pQU9GSkk.mp3',
+                            artist: '原来是萝卜丫',
+                            cover: 'song-images/后来我们的爱(萝卜版).jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '一个人',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmVCQUFBQUFBQmhNTnFTZGp4NXMyZHZnSFhQcTJWQ0E_ZT1kakVSYUg.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/一个人.jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '恋爱告急',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdlpCQUFBQUFBQjNnaXJ4QVFQd0QwbWRrS0VobWRSM0E_ZT16cGZOSlQ.mp3',
+                            artist: '鞠婧祎',
+                            cover: 'song-images/恋爱告急.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '喜欢',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmRCQUFBQUFBQkdiWEU4MGpWWmItZTF0TGdFRXlWUmc_ZT1WMGxYWVk.mp3',
+                            artist: '阿肆',
+                            cover: 'song-images/喜欢.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '藏不住的心跳',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmFCQUFBQUFBQmg2OXI4clJoRWFXYUpWeHZfNXZmZWc_ZT0yQlhzZmo.mp3',
+                            artist: '朱主爱',
+                            cover: 'song-images/藏不住的心跳.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '你不纯洁',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmNCQUFBQUFBQms5SV9RMHBmZnpvWHotOFctN3RRckE_ZT1oYU9XTEQ.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/你不纯洁.webp',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1754812031243);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

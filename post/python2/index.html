@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Mr. Gao的个人博客
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="Mr. Gao">
+<meta name="description" content="一个普普通通的人...">
+<meta name="keywords" content="Mr. Gao,gaojj2000,Python,Java">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://gaojj2000.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://gaojj2000.github.io">
+                    Mr. Gao的个人博客
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                    <a class="menu-item" href="/post/csdn_catalog">
+                        CSDN博客目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/github">
+                        GitHub仓库目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/python">
+                        Python
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://gaojj2000.github.io">
+                            Mr. Gao的个人博客
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                        <a class="menu-item" href="/post/csdn_catalog">
+                            CSDN博客目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/github">
+                            GitHub仓库目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/python">
+                            Python
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                Python2
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Mr. Gao的个人博客
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-12-14</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">5.8
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1604</a></span>
+                                        
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://gaojj2000.github.io/post-images/python2.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <h1 id="1什么是python使用python有什么好处">1）什么是Python？使用Python有什么好处？</h1>
+<p>python是一种编程语言，python语法简洁，功能强大，拥有丰富的第三方模块。</p>
+<h1 id="2什么是pep-8">2）什么是PEP 8？</h1>
+<p>一种编码规范，使得代码更易于阅读。</p>
+<h1 id="3什么是序列化和反序列化">3）什么是序列化和反序列化？</h1>
+<p>序列化就是将任意对象转变成字节序列，可以永久保存对象，反序列化就是将字节序列还原成对象。（Python中是Pickle模块）</p>
+<h1 id="4如何解释python">4）如何解释Python？</h1>
+<p>python是解释型语言，先将源代码翻译成中间代码，再翻译成机器语言。</p>
+<h1 id="5如何在python中内存管理">5）如何在Python中内存管理？</h1>
+<p>Python内存由Python私有堆空间管理，程序员无法访问，由解释器负责处理。Python有个内存回收机制，以引用计数为主，分代回收为辅。</p>
+<h1 id="6有哪些工具可以帮助查找错误或执行静态分析">6）有哪些工具可以帮助查找错误或执行静态分析？</h1>
+<p>静态分析工具：PyChecker。验证是否符合编码标准：Pylint。</p>
+<h1 id="7什么是python-decorators">7）什么是Python decorators？</h1>
+<p>装饰器通过装饰原有函数，可以起到拓展原来函数的功能。</p>
+<h1 id="8list和tuple有什么区别">8）list和tuple有什么区别？</h1>
+<p>list是可变类型，可以增删改元素，不可作为字典的键。tuple是不可变类型，不可以增删改元素，可以作为字典的键。</p>
+<h1 id="9参数如何通过值或引用传递">9）参数如何通过值或引用传递？</h1>
+<p>python参数所表示的值是通过对内存的引用，创建一个已有的值，就把内存中这个值所在的地址引用给变量。<br>
+创建一个新的值，就先在内存中开辟出这个值的区域，然后引用给变量。</p>
+<h1 id="10dict和list理解是什么">10）Dict和List理解是什么？</h1>
+<p>都是Python基本的数据类型，都可以通过可迭代对象创建。</p>
+<h1 id="11python提供的内置类型是什么">11）python提供的内置类型是什么？</h1>
+<p>不可变类型：int，float、complex、bool、str，tuple。（数值、字符串、元组）<br>
+可变类型：list，set，dict。（列表、集合、字典）</p>
+<h1 id="12python中的命名空间是什么">12）Python中的命名空间是什么？</h1>
+<p>locals()存放局部量或函数等字典，globals()存放全局量或函数等字典，builtins.py存放内建变量或函数等</p>
+<h1 id="13python中的lambda是什么">13）Python中的lambda是什么？</h1>
+<p>匿名表达式，相当于没有函数名的函数。</p>
+<h1 id="14为什么python中的lambda表达式没有语句">14）为什么python中的lambda表达式没有语句？</h1>
+<p>因为它用于构建函数并返回函数。</p>
+<h1 id="15什么是python-pass">15）什么是Python pass？</h1>
+<p>占位符，是一个不会被执行的语句，省略号（...）也可以用来占位。</p>
+<h1 id="16什么是python中的迭代器">16）什么是Python中的迭代器？</h1>
+<p>内部通过yield返回值的函数，有__iter__()函数代表对象是可迭代的，有__next__()函数代表对象是迭代器。</p>
+<h1 id="17什么是python中的单元测试">17）什么是Python中的单元测试？</h1>
+<p>指对软件中的最小可测试单元进行检查和验证。</p>
+<h1 id="18在python中的切片是什么">18）在Python中的切片是什么？</h1>
+<p>从一个序列中根据索引获取元素。</p>
+<h1 id="19python中的生成器是什么">19）Python中的生成器是什么？</h1>
+<p>是特殊的迭代器，通过next()计算下一个元素。</p>
+<h1 id="20python中的docstring是什么">20）Python中的docstring是什么？</h1>
+<p>文档字符串，用于描述模块、类、函数等对象。</p>
+<h1 id="21如何在python中复制对象">21）如何在Python中复制对象？</h1>
+<p>浅复制可以直接赋值或者使用copy.copy()，深赋值可以使用copy.deepcopy()。</p>
+<h1 id="22python中的反向索引是什么">22）Python中的反向索引是什么？</h1>
+<p>反向索引是从右到左从-1，-2开始的索引，可以用于切片。</p>
+<h1 id="23如何将数字转换为字符串">23）如何将数字转换为字符串？</h1>
+<p>str(number)。</p>
+<h1 id="24xrange和range有什么区别">24）xrange和range有什么区别？</h1>
+<p>在python2中，xrange返回一个生成器，range返回列表。</p>
+<h1 id="25python中的module和package是什么">25）Python中的module和package是什么？</h1>
+<p>module是模块，就是一个Python文件，package是包，是一个目录，包括了数个Python文件。</p>
+<h1 id="26提到python中的局部变量和全局变量的规则是什么">26）提到Python中的局部变量和全局变量的规则是什么？</h1>
+<p>局部变量只能在局部使用，除非使用global关键字。全局变量可以被局部访问。即时局部变量与全局变量同名，没有使用global关键字，局部变量的修改不会影响全局变量。</p>
+<h1 id="27如何跨模块共享全局变量">27）如何跨模块共享全局变量？</h1>
+<p>创建一个专门用于存储变量的模块供各模块访问。<br>
+通过序列化保存为文件，再通过反序列化还原对象。</p>
+<h1 id="28解释如何在unix上创建python脚本">28）解释如何在Unix上创建Python脚本？</h1>
+<p>设置脚本可执行，在脚本开头标注解释器链接。</p>
+<h1 id="29解释如何在python中删除文件">29）解释如何在Python中删除文件</h1>
+<p>os.rename()，os.unlink()。</p>
+<h1 id="30解释如何在python中生成随机数">30）解释如何在Python中生成随机数？</h1>
+<p>random.random()生成[0, 1]的浮点数。</p>
+<h1 id="31解释如何从c访问python编写的模块">31）解释如何从C访问Python编写的模块？</h1>
+<p>PyImport_ImportModule()。</p>
+<h1 id="32提到在python中使用运算符">32）提到在Python中使用//运算符？</h1>
+<p>整数相除得到除法结果的整数部分，如果除数或被除数是浮点数，则得到除法结果的整数部分的浮点型</p>
+<h1 id="33使用python的五大好处">33）使用Python的五大好处？</h1>
+<p>自动管理内存，无需人为操作。<br>
+标准模块和第三方模块都多。<br>
+不用括号，强制缩进，易于阅读。<br>
+语法简洁，易于学习。<br>
+可扩展、可移植、面向对象。</p>
+<h1 id="34提到在python中使用split函数">34）提到在Python中使用split函数？</h1>
+<p>split()函数可以以指定字符串切割字符串。</p>
+<h1 id="35解释什么是flask及其好处">35）解释什么是Flask及其好处？</h1>
+<p>一个轻量级的web应用框架，其WSGI服务器是Werkzeug，模板引擎是jinjia2。<br>
+微型框架，不依赖于其他模块，更轻的框架，更少的安全错误。</p>
+<h1 id="36djangopyramid和flask之间有什么区别">36）Django，Pyramid和Flask之间有什么区别？</h1>
+<p>Flask适合小型应用开发，Django和Pyramid适合大型应用开发。<br>
+Flask和Pyramid不自带ORM框架，Django自带ORM框架。<br>
+Flask和Pyramid可以自由配置其他模块就像安卓系统一样，Django共有强大的社区，有一定的规则性不自由，就像苹果系统一样。</p>
+<h1 id="37什么是flask-wtf以及它们的的特征是什么">37）什么是Flask-WTF以及它们的的特征是什么？</h1>
+<p>Flask-WTF是一个用于表单处理、校验并提供csrf验证的功能的扩展库。<br>
+Flask-WTF能使表单免受CSRF&lt;跨站请求伪造&gt;的攻击。</p>
+<h1 id="38解释flask脚本工作的常用方法是什么">38）解释Flask脚本工作的常用方法是什么？</h1>
+<p>调用应用程序或Python文件的路径。</p>
+<h1 id="39解释如何在flask中访问会话">39）解释如何在Flask中访问会话？</h1>
+<p>使用签名cookie，用户可以查看或修改会话内容。如果只有Flask.secret_key，则用户可以修改会话。</p>
+<h1 id="40flask是mvc模型如果是举例说明你的应用程序的mvc模式">40）Flask是MVC模型，如果是，举例说明你的应用程序的MVC模式？</h1>
+<p>Flask是个简约框架，行为与MVC框架相同，所以MVC很适合Flask。</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li><a href="#1%E4%BB%80%E4%B9%88%E6%98%AFpython%E4%BD%BF%E7%94%A8python%E6%9C%89%E4%BB%80%E4%B9%88%E5%A5%BD%E5%A4%84">1）什么是Python？使用Python有什么好处？</a></li>
+<li><a href="#2%E4%BB%80%E4%B9%88%E6%98%AFpep-8">2）什么是PEP 8？</a></li>
+<li><a href="#3%E4%BB%80%E4%B9%88%E6%98%AF%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96">3）什么是序列化和反序列化？</a></li>
+<li><a href="#4%E5%A6%82%E4%BD%95%E8%A7%A3%E9%87%8Apython">4）如何解释Python？</a></li>
+<li><a href="#5%E5%A6%82%E4%BD%95%E5%9C%A8python%E4%B8%AD%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86">5）如何在Python中内存管理？</a></li>
+<li><a href="#6%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E6%9F%A5%E6%89%BE%E9%94%99%E8%AF%AF%E6%88%96%E6%89%A7%E8%A1%8C%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90">6）有哪些工具可以帮助查找错误或执行静态分析？</a></li>
+<li><a href="#7%E4%BB%80%E4%B9%88%E6%98%AFpython-decorators">7）什么是Python decorators？</a></li>
+<li><a href="#8list%E5%92%8Ctuple%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB">8）list和tuple有什么区别？</a></li>
+<li><a href="#9%E5%8F%82%E6%95%B0%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E5%80%BC%E6%88%96%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92">9）参数如何通过值或引用传递？</a></li>
+<li><a href="#10dict%E5%92%8Clist%E7%90%86%E8%A7%A3%E6%98%AF%E4%BB%80%E4%B9%88">10）Dict和List理解是什么？</a></li>
+<li><a href="#11python%E6%8F%90%E4%BE%9B%E7%9A%84%E5%86%85%E7%BD%AE%E7%B1%BB%E5%9E%8B%E6%98%AF%E4%BB%80%E4%B9%88">11）python提供的内置类型是什么？</a></li>
+<li><a href="#12python%E4%B8%AD%E7%9A%84%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E6%98%AF%E4%BB%80%E4%B9%88">12）Python中的命名空间是什么？</a></li>
+<li><a href="#13python%E4%B8%AD%E7%9A%84lambda%E6%98%AF%E4%BB%80%E4%B9%88">13）Python中的lambda是什么？</a></li>
+<li><a href="#14%E4%B8%BA%E4%BB%80%E4%B9%88python%E4%B8%AD%E7%9A%84lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B2%A1%E6%9C%89%E8%AF%AD%E5%8F%A5">14）为什么python中的lambda表达式没有语句？</a></li>
+<li><a href="#15%E4%BB%80%E4%B9%88%E6%98%AFpython-pass">15）什么是Python pass？</a></li>
+<li><a href="#16%E4%BB%80%E4%B9%88%E6%98%AFpython%E4%B8%AD%E7%9A%84%E8%BF%AD%E4%BB%A3%E5%99%A8">16）什么是Python中的迭代器？</a></li>
+<li><a href="#17%E4%BB%80%E4%B9%88%E6%98%AFpython%E4%B8%AD%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95">17）什么是Python中的单元测试？</a></li>
+<li><a href="#18%E5%9C%A8python%E4%B8%AD%E7%9A%84%E5%88%87%E7%89%87%E6%98%AF%E4%BB%80%E4%B9%88">18）在Python中的切片是什么？</a></li>
+<li><a href="#19python%E4%B8%AD%E7%9A%84%E7%94%9F%E6%88%90%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88">19）Python中的生成器是什么？</a></li>
+<li><a href="#20python%E4%B8%AD%E7%9A%84docstring%E6%98%AF%E4%BB%80%E4%B9%88">20）Python中的docstring是什么？</a></li>
+<li><a href="#21%E5%A6%82%E4%BD%95%E5%9C%A8python%E4%B8%AD%E5%A4%8D%E5%88%B6%E5%AF%B9%E8%B1%A1">21）如何在Python中复制对象？</a></li>
+<li><a href="#22python%E4%B8%AD%E7%9A%84%E5%8F%8D%E5%90%91%E7%B4%A2%E5%BC%95%E6%98%AF%E4%BB%80%E4%B9%88">22）Python中的反向索引是什么？</a></li>
+<li><a href="#23%E5%A6%82%E4%BD%95%E5%B0%86%E6%95%B0%E5%AD%97%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%AD%97%E7%AC%A6%E4%B8%B2">23）如何将数字转换为字符串？</a></li>
+<li><a href="#24xrange%E5%92%8Crange%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB">24）xrange和range有什么区别？</a></li>
+<li><a href="#25python%E4%B8%AD%E7%9A%84module%E5%92%8Cpackage%E6%98%AF%E4%BB%80%E4%B9%88">25）Python中的module和package是什么？</a></li>
+<li><a href="#26%E6%8F%90%E5%88%B0python%E4%B8%AD%E7%9A%84%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E5%92%8C%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%E7%9A%84%E8%A7%84%E5%88%99%E6%98%AF%E4%BB%80%E4%B9%88">26）提到Python中的局部变量和全局变量的规则是什么？</a></li>
+<li><a href="#27%E5%A6%82%E4%BD%95%E8%B7%A8%E6%A8%A1%E5%9D%97%E5%85%B1%E4%BA%AB%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F">27）如何跨模块共享全局变量？</a></li>
+<li><a href="#28%E8%A7%A3%E9%87%8A%E5%A6%82%E4%BD%95%E5%9C%A8unix%E4%B8%8A%E5%88%9B%E5%BB%BApython%E8%84%9A%E6%9C%AC">28）解释如何在Unix上创建Python脚本？</a></li>
+<li><a href="#29%E8%A7%A3%E9%87%8A%E5%A6%82%E4%BD%95%E5%9C%A8python%E4%B8%AD%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6">29）解释如何在Python中删除文件</a></li>
+<li><a href="#30%E8%A7%A3%E9%87%8A%E5%A6%82%E4%BD%95%E5%9C%A8python%E4%B8%AD%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0">30）解释如何在Python中生成随机数？</a></li>
+<li><a href="#31%E8%A7%A3%E9%87%8A%E5%A6%82%E4%BD%95%E4%BB%8Ec%E8%AE%BF%E9%97%AEpython%E7%BC%96%E5%86%99%E7%9A%84%E6%A8%A1%E5%9D%97">31）解释如何从C访问Python编写的模块？</a></li>
+<li><a href="#32%E6%8F%90%E5%88%B0%E5%9C%A8python%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%BF%90%E7%AE%97%E7%AC%A6">32）提到在Python中使用//运算符？</a></li>
+<li><a href="#33%E4%BD%BF%E7%94%A8python%E7%9A%84%E4%BA%94%E5%A4%A7%E5%A5%BD%E5%A4%84">33）使用Python的五大好处？</a></li>
+<li><a href="#34%E6%8F%90%E5%88%B0%E5%9C%A8python%E4%B8%AD%E4%BD%BF%E7%94%A8split%E5%87%BD%E6%95%B0">34）提到在Python中使用split函数？</a></li>
+<li><a href="#35%E8%A7%A3%E9%87%8A%E4%BB%80%E4%B9%88%E6%98%AFflask%E5%8F%8A%E5%85%B6%E5%A5%BD%E5%A4%84">35）解释什么是Flask及其好处？</a></li>
+<li><a href="#36djangopyramid%E5%92%8Cflask%E4%B9%8B%E9%97%B4%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB">36）Django，Pyramid和Flask之间有什么区别？</a></li>
+<li><a href="#37%E4%BB%80%E4%B9%88%E6%98%AFflask-wtf%E4%BB%A5%E5%8F%8A%E5%AE%83%E4%BB%AC%E7%9A%84%E7%9A%84%E7%89%B9%E5%BE%81%E6%98%AF%E4%BB%80%E4%B9%88">37）什么是Flask-WTF以及它们的的特征是什么？</a></li>
+<li><a href="#38%E8%A7%A3%E9%87%8Aflask%E8%84%9A%E6%9C%AC%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88">38）解释Flask脚本工作的常用方法是什么？</a></li>
+<li><a href="#39%E8%A7%A3%E9%87%8A%E5%A6%82%E4%BD%95%E5%9C%A8flask%E4%B8%AD%E8%AE%BF%E9%97%AE%E4%BC%9A%E8%AF%9D">39）解释如何在Flask中访问会话？</a></li>
+<li><a href="#40flask%E6%98%AFmvc%E6%A8%A1%E5%9E%8B%E5%A6%82%E6%9E%9C%E6%98%AF%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E%E4%BD%A0%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84mvc%E6%A8%A1%E5%BC%8F">40）Flask是MVC模型，如果是，举例说明你的应用程序的MVC模式？</a></li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Mr. Gao的个人博客</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://gaojj2000.github.io/post/python2/">https://gaojj2000.github.io/post/python2/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gaojj2000.github.io/post/python2/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://gaojj2000.github.io/post/python2/&sharesource=qzone&title=Python2&pics=https://gaojj2000.github.io/images/avatar.png?v=1754812031243&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://gaojj2000.github.io/post/python2/&sharesource=weibo&title=Python2 + " - " + &pic="https://gaojj2000.github.io/images/avatar.png?v=1754812031243 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                            
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Mr. Gao的个人博客 &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/gaojj2000" target="_blank">
+                                                gaojj2000
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '后来我们的爱(萝卜版)',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmJCQUFBQUFBQmZyMEFTMXFIWGc3WlRDOW85VGE5VHc_ZT1pQU9GSkk.mp3',
+                            artist: '原来是萝卜丫',
+                            cover: 'song-images/后来我们的爱(萝卜版).jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '一个人',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmVCQUFBQUFBQmhNTnFTZGp4NXMyZHZnSFhQcTJWQ0E_ZT1kakVSYUg.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/一个人.jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '恋爱告急',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdlpCQUFBQUFBQjNnaXJ4QVFQd0QwbWRrS0VobWRSM0E_ZT16cGZOSlQ.mp3',
+                            artist: '鞠婧祎',
+                            cover: 'song-images/恋爱告急.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '喜欢',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmRCQUFBQUFBQkdiWEU4MGpWWmItZTF0TGdFRXlWUmc_ZT1WMGxYWVk.mp3',
+                            artist: '阿肆',
+                            cover: 'song-images/喜欢.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '藏不住的心跳',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmFCQUFBQUFBQmg2OXI4clJoRWFXYUpWeHZfNXZmZWc_ZT0yQlhzZmo.mp3',
+                            artist: '朱主爱',
+                            cover: 'song-images/藏不住的心跳.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '你不纯洁',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmNCQUFBQUFBQms5SV9RMHBmZnpvWHotOFctN3RRckE_ZT1oYU9XTEQ.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/你不纯洁.webp',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1754812031243);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

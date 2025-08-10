@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Mr. Gao的个人博客
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="Mr. Gao">
+<meta name="description" content="一个普普通通的人...">
+<meta name="keywords" content="Mr. Gao,gaojj2000,Python,Java">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://gaojj2000.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://gaojj2000.github.io">
+                    Mr. Gao的个人博客
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                    <a class="menu-item" href="/post/csdn_catalog">
+                        CSDN博客目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/github">
+                        GitHub仓库目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/python">
+                        Python
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://gaojj2000.github.io">
+                            Mr. Gao的个人博客
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                        <a class="menu-item" href="/post/csdn_catalog">
+                            CSDN博客目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/github">
+                            GitHub仓库目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/python">
+                            Python
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                ChatGPT问答——关于面试
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Mr. Gao的个人博客
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2023-03-01</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">5.0
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1505</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://gaojj2000.github.io/tag/k3Yb_GaUJ/">ChatGPT</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://gaojj2000.github.io/post-images/chatgpt.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <p>面试<br>
+您好，有什么关于面试的问题我可以帮助您回答吗？</p>
+<p>面试应该如何自我介绍<br>
+在面试中自我介绍是非常重要的一环，下面是一些提示可以帮助您进行自我介绍：</p>
+<ol>
+<li>开头要清晰明了，简要介绍自己的姓名、所在学校或公司以及应聘的职位。</li>
+<li>接下来可以介绍自己的教育背景和相关工作经验，突出和应聘职位相关的内容。</li>
+<li>您还可以提到一些与应聘职位相关的技能和经验，例如您在某个项目中的具体工作职责，以及您如何通过某些技能和经验为该项目做出贡献。</li>
+<li>强调一下自己的特点和优势，比如说您在某个领域具有独特的见解或者您有良好的团队合作能力等。</li>
+<li>最后，表达一下自己对这个职位的热情和对公司的认可，可以说一些自己为什么想要应聘这个职位的原因，以及对公司的发展和文化的认可。<br>
+总之，自我介绍要清晰明了、简洁有力，并突出自己的优势和与应聘职位相关的经验和技能，这样能让面试官更好地了解您的背景和能力，从而提高获得面试成功的机会。</li>
+</ol>
+<p>大专应届生面试言辞示例<br>
+当大专应届生参加面试时，以下是一些可能的面试言辞示例：</p>
+<ol>
+<li>自我介绍：<br>
+您好，我叫XXX，是来自XXX大学XXX专业的大专应届毕业生。我对应聘的这个职位非常感兴趣，因为我相信我的专业知识和实践经验能够胜任这个职位。在大学期间，我曾参与多个项目，并且在实践中掌握了一些关键技能，如团队合作和沟通技巧。</li>
+<li>回答问题：<br>
+面试官：你能告诉我你最喜欢的课程和为什么吗？<br>
+我最喜欢的课程是XXX，因为这门课程深入浅出地讲解了XXX领域的关键概念和应用，让我对这个领域产生了浓厚的兴趣。此外，我也通过这门课程学到了很多解决实际问题的方法和技巧，这些都是我在将来职业生涯中可以运用到的。<br>
+面试官：你在项目中扮演的角色是什么？<br>
+在项目中，我主要扮演了XXX的角色，负责XXX的任务。我与团队中的其他成员密切合作，确保项目进度和质量都符合预期。同时，我也负责与客户进行沟通和协商，以满足他们的需求。在这个过程中，我发现了一些问题并提出了一些解决方案，这也得到了客户的认可。</li>
+<li>结尾：<br>
+非常感谢您能给我这个机会参加面试，并且听取我的自我介绍和回答问题。我非常期待能够加入您的团队，为公司的发展和成长做出贡献。</li>
+</ol>
+<p>如何向面试官提问以评价公司企业好坏<br>
+在面试过程中，向面试官提问可以帮助您更好地了解公司的文化、价值观和工作环境，从而评价该公司的好坏。以下是一些可以向面试官提问的问题：</p>
+<ol>
+<li>请问您公司的文化和价值观是什么？<br>
+了解公司的文化和价值观可以帮助您了解该公司的工作方式和期望。如果公司的文化和价值观与您的价值观相符，那么您很可能会在这个公司获得更好的工作体验和成长机会。</li>
+<li>请问您公司的员工发展和培训计划是什么？<br>
+了解公司的员工发展和培训计划可以帮助您了解该公司是否重视员工的职业发展和提升。如果公司有完善的培训和发展计划，那么您将有更多的机会学习和发展自己的技能，从而为将来的职业生涯做好准备。</li>
+<li>请问您公司的工作环境和工作氛围是什么样的？<br>
+了解公司的工作环境和工作氛围可以帮助您了解公司是否重视员工的生活质量和工作满意度。如果公司的工作环境和工作氛围良好，那么您将有更好的工作体验和更高的工作动力。</li>
+<li>请问您公司的未来发展规划是什么？<br>
+了解公司的未来发展规划可以帮助您了解该公司是否有长远的发展计划和愿景。如果公司有明确的未来发展规划，那么您将有更多的机会参与公司的发展和成长，从而为自己的职业生涯做好准备。<br>
+总之，向面试官提问是一个展示您对公司了解程度和态度的好机会，可以帮助您评价该公司的好坏，以便做出正确的职业选择。</li>
+</ol>
+<p>如何才能写出一个好的简历<br>
+写一份好的简历需要遵循以下几个原则：</p>
+<ol>
+<li>简洁明了：保持简洁明了，只列出您最重要的工作经历和教育经历。</li>
+<li>专业：使用专业的语言，并使用适当的字体和格式。</li>
+<li>针对性强：简历应针对您想申请的职位，并强调您与该职位相关的技能和经验。</li>
+<li>真实性：请勿撰写虚假的信息，保持真实性。</li>
+<li>证明性：突出您的成绩和成就，证明您有能力胜任该职位。</li>
+<li>可读性：使用易于阅读的格式和字体，并保持一致性。</li>
+<li>审查：请仔细审查您的简历，确保没有语法错误和拼写错误。</li>
+</ol>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Mr. Gao的个人博客</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://gaojj2000.github.io/post/chatgpt/">https://gaojj2000.github.io/post/chatgpt/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gaojj2000.github.io/post/chatgpt/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://gaojj2000.github.io/post/chatgpt/&sharesource=qzone&title=ChatGPT问答——关于面试&pics=https://gaojj2000.github.io/images/avatar.png?v=1754812031243&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://gaojj2000.github.io/post/chatgpt/&sharesource=weibo&title=ChatGPT问答——关于面试 + " - " + &pic="https://gaojj2000.github.io/images/avatar.png?v=1754812031243 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://gaojj2000.github.io/tag/k3Yb_GaUJ/">#
+                    ChatGPT
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                            
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Mr. Gao的个人博客 &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/gaojj2000" target="_blank">
+                                                gaojj2000
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '后来我们的爱(萝卜版)',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmJCQUFBQUFBQmZyMEFTMXFIWGc3WlRDOW85VGE5VHc_ZT1pQU9GSkk.mp3',
+                            artist: '原来是萝卜丫',
+                            cover: 'song-images/后来我们的爱(萝卜版).jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '一个人',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmVCQUFBQUFBQmhNTnFTZGp4NXMyZHZnSFhQcTJWQ0E_ZT1kakVSYUg.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/一个人.jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '恋爱告急',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdlpCQUFBQUFBQjNnaXJ4QVFQd0QwbWRrS0VobWRSM0E_ZT16cGZOSlQ.mp3',
+                            artist: '鞠婧祎',
+                            cover: 'song-images/恋爱告急.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '喜欢',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmRCQUFBQUFBQkdiWEU4MGpWWmItZTF0TGdFRXlWUmc_ZT1WMGxYWVk.mp3',
+                            artist: '阿肆',
+                            cover: 'song-images/喜欢.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '藏不住的心跳',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmFCQUFBQUFBQmg2OXI4clJoRWFXYUpWeHZfNXZmZWc_ZT0yQlhzZmo.mp3',
+                            artist: '朱主爱',
+                            cover: 'song-images/藏不住的心跳.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '你不纯洁',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmNCQUFBQUFBQms5SV9RMHBmZnpvWHotOFctN3RRckE_ZT1oYU9XTEQ.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/你不纯洁.webp',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1754812031243);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

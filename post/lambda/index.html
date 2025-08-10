@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Mr. Gao的个人博客
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="Mr. Gao">
+<meta name="description" content="一个普普通通的人...">
+<meta name="keywords" content="Mr. Gao,gaojj2000,Python,Java">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://gaojj2000.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://gaojj2000.github.io">
+                    Mr. Gao的个人博客
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                    <a class="menu-item" href="/post/csdn_catalog">
+                        CSDN博客目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/github">
+                        GitHub仓库目录
+                    </a>
+                    
+                    <a class="menu-item" href="/post/python">
+                        Python
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://gaojj2000.github.io">
+                            Mr. Gao的个人博客
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1754812031243" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                        <a class="menu-item" href="/post/csdn_catalog">
+                            CSDN博客目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/github">
+                            GitHub仓库目录
+                        </a>
+                        
+                        <a class="menu-item" href="/post/python">
+                            Python
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                Python中的lambda
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Mr. Gao的个人博客
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-12-08</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">8.2
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1578</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://gaojj2000.github.io/tag/python/">Python</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://gaojj2000.github.io/post-images/lambda.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <pre><code class="language-python"># _*_ coding:utf-8 _*_
+# FileName: Lambda.py
+# IDE: PyCharm
+
+# 在lambda递归(循环)表达式中不能出现input，需要先让递归(循环)初始化再赋值input
+
+# 数字累加算法
+add = (lambda _: sum(map(int, list(_))))(input('请输入一个正整数：'))
+print('数字累加计算结果是：{}'.format(add))
+
+# BMI算法
+BMI = (lambda _, __ : (__/_/_ &lt; 18.5 and '偏瘦' or __/_/_ &lt; 25 and '正常' or __/_/_ &lt; 30 and '偏胖' or __/_/_ &lt; 35 and '肥胖' or '重度肥胖', __/_/_))(float(input('身高(m)：')), float(input('体重(kg)：')))
+print('体型为：{}，BMI指数为：{:.2f}'.format(*BMI))
+
+# 等差等比之和算法
+dcb = (lambda _, __ , ___: (float(round(sum([_ + __ * ____ for ____ in range(___)]), len(str(_).split('.')[1]))), float(round(sum([_ * __ ** ____ for ____ in range(___)]), len(str(_).split('.')[1])))))(float(input('第一个数字：')), float(input('加率/乘率：')), int(input('次数：')))
+print('等差之和结果：{}，等比之和结果：{}'.format(*dcb))
+
+# 仅算底数为 2 的最大整数指数函数算法 + 仅算底数为 2 的整数指数函数组成拆分算法（特例）
+m2 = (lambda _: (len(_) - 1, int(''.join(map(str, _[::-1])), 2), int(''.join(map(str, _[::-1])), 2), f'\033[4;31m{&quot; + &quot;.join(map(str, [__ * 2 ** ___ for ___, __ in enumerate(_) if __]))}\033[0m'.replace(' + ', '\033[0m + \033[4;31m'), str([__ for __, ___ in enumerate(_) if ___]).replace('[', f'2^\033[4;31m').replace(', ', f'\033[0m + 2^\033[4;31m').replace(']', '\033[0m')))(list(map(int, list(bin(int(input('请输入幂为 2 的指数和：')))[:1:-1]))))
+print('底数为 \033[31m{}\033[0m 的最大指数为 \033[31m{}\033[0m 将不超过 \033[31m{}\033[0m\n算式为：\033[31m{}\033[0m = {} = {}'.format(2, *m2))
+
+# 最大整数指数函数算法 + 整数指数函数组成拆分算法
+MAX = lambda _, __, ___ = 1: (_ ** ___ &lt;= __) and MAX(_, __, ___ + 1) or (_, ___ - 1, __, ___ - 1)
+loop = lambda _, __, ___, ____, _____ = 0, ______ = eval('[]'): __ + 1 and ((_____ + _ ** __ &lt;= ___) and loop(_, __ - 1, ___, ____, _____ + _ ** __, ______ + [__]) or loop(_, __ - 1, ___, ____, _____, ______)) or (_, ____, ___, ___, f'\033[4;31m{&quot; + &quot;.join(map(str, [_ ** __ for __ in ______][::-1]))}\033[0m'.replace(' + ', '\033[0m + \033[4;31m'), str( ______[::-1]).replace('[', f'{_}^\033[4;31m').replace(', ', f'\033[0m + {_}^\033[4;31m').replace(']', '\033[0m'))
+loop = loop(*MAX(int(input('请输入指数函数的底数（整数）：')), int(input('请输入指数和（整数）：'))))
+print('底数为 \033[31m{}\033[0m 的最大指数为 \033[31m{}\033[0m 将不超过 \033[31m{}\033[0m\n算式为：\033[31m{}\033[0m = {} = {}'.format(*loop))
+
+# 最大整数指数函数算法 + 整数指数函数组成拆分算法（略微优化版）
+MAX = lambda _, __, ___ = 1: (_ ** ___ &lt;= __) and MAX(_, __, ___ + 1) or (_, ___ - 1, __)
+loop = lambda _, __, ___, ____ = 0, _____ = eval('[]'): __ + 1 and ((____ + _ ** __ &lt;= ___) and loop(_, __ - 1, ___, ____ + _ ** __, _____ + [__]) or loop(_, __ - 1, ___, ____, _____)) or (_, _____[0], ___, ___, f'\033[4;31m{&quot; + &quot;.join(map(str, [_ ** __ for __ in _____][::-1]))}\033[0m'.replace(' + ', '\033[0m + \033[4;31m'), str( _____[::-1]).replace('[', f'{_}^\033[4;31m').replace(', ', f'\033[0m + {_}^\033[4;31m').replace(']', '\033[0m'))
+loop = loop(*MAX(int(input('请输入指数函数的底数（整数）：')), int(input('请输入指数和（整数）：'))))
+print('底数为 \033[31m{}\033[0m 的最大指数为 \033[31m{}\033[0m 将不超过 \033[31m{}\033[0m\n算式为：\033[31m{}\033[0m = {} = {}'.format(*loop))
+
+# 瓶盖空瓶换啤酒算法（不借瓶盖空瓶，价值不守恒，非找规律）【(2, 2, 4)单位（元/瓶啤酒，空瓶/瓶啤酒，瓶盖/瓶啤酒）】
+loop = lambda _, __, ___, ____, _____: (___ or _____ &gt; 3 or ____ &gt; 1) and loop(*((lambda _, __, ___, ____, _____: (_, __ + ___, ___, ____, _____) or (print(_, __, ___, ____, _____) or _, __, ___, ____, _____))(*(lambda _, __, ___, ____, _____: _____ &gt; 3 and (_, __, ___ + int(_____ / _[2]), ____, _____ - _[2] * int(_____ / _[2])) or (_, __, ___, ____, _____))(*(lambda _, __, ___, ____, _____: ____ &gt; 1 and (_, __, ___ + int(____ / _[1]), ____ - _[1] * int(____ / _[1]), _____) or (_, __, ___, ____, _____))(*(lambda _, __, ___, ____, _____: ___ and (_, __, 0, ____ + ___, _____ + ___) or (_, __, ___, ____, _____))(_, __, ___, ____, _____)))))) or (__, ____, _____)
+result = loop(*((lambda _, __: (__, int(_ / __[0]), 0, int(_ / __[0]), int(_ / __[0])))(*(lambda _, __ = (2, 2, 4): (_, __))(int(input('请输入总价格：'))))))
+print('累计啤酒数 \033[4;31m{}\033[0m ，当前所有的空瓶 \033[4;31m{}\033[0m ，当前所有的瓶盖 \033[4;31m{}\033[0m 。'.format(*result))
+
+# 素数列表算法 + n个数的最大公约数和最小比例组和最小公倍数算法
+# 一般素数列表算法（对较大范围计算，算的数据过于庞大）
+# ss = (lambda _, __: [_ for _ in range(_, __ + 1) if not (lambda _: [__ for __ in range(2, _) if _ % __ == 0])(_)])(int(input('请输入最小数：')), int(input('请输入最大数：')))
+# print('素数列表：{}'.format(ss))
+# 理论素数列表算法（只判断到最大数的根号）
+ss = lambda _, __: [_ for _ in range(_, __ + 1) if not (lambda _: [___ for ___ in range(2, int(_ ** 0.5) + 1) if _ % ___ == 0])(_)]
+# ss = ss(int(input('请输入最小数：')), int(input('请输入最大数：')))
+# print('素数列表：{}'.format(ss))
+# 分解质因数
+zs = lambda _, __, ___: (_ &lt;= ___) and ((___ % _) and zs(_ + 1, __, ___) or zs(_, __ + [_], ___ / _)) or __
+# zs = zs(2, [], int(input('请输入要分解质因数的数：')))
+# zs = [_ for _ in zs if _ in ss]
+# print('质因数分解列表：{}'.format(zs))
+# 统计质因数个数
+# print('统计质因数个数：{}'.format({_: zs.count(_) for _ in set(zs)}))
+# 求最大公约数的质因数个数统计
+from functools import reduce
+nums = list(map(int, input('\n请输入数字，用单空格隔开：').strip().split(' ')))
+decomposes = [{__: zs(2, [], _).count(__) for __ in set(zs(2, [], _))} for _ in nums]
+# print('键集合：{}'.format(decomposes))
+# 获取键集合
+# print('键集合：{}'.format(list(set(reduce(lambda _, __: isinstance(_, dict) and (list(_.keys()) + list(__.keys())) or (_ + list(__.keys())), decomposes)))))
+# print('键集合：{}'.format(list(set(reduce(lambda _, __: _ + list(__.keys()), [[]] + decomposes)))))
+# 计算最低值
+composes = {_: [] for _ in list(set(reduce(lambda _, __: _ + list(__.keys()), [[]] + decomposes)))}
+for _ in decomposes:
+    for __ in list(set(reduce(lambda _, __: _ + list(__.keys()), [[]] + decomposes))):
+        composes[__].append(_.get(__, 0))
+composes = {_: min(composes[_]) for _ in composes}
+# 最大公约数
+MIN = reduce(lambda _, __: (_ ** composes.get(_, 1)) * (__ ** composes.get(__, 1)), composes)
+# 最小比例组
+MIN_LIST = [int(_ / MIN) for _ in nums]
+# 最小公倍数
+MAX = reduce(lambda _, __: _ * __, MIN_LIST) * MIN
+print('数字 \033[4;31m{}\033[0m 的最小比例组为 \033[4;31m{}\033[0m ，最大公约数为 \033[4;31m{}\033[0m ，最小公倍数为 \033[4;31m{}\033[0m '.format(nums, MIN_LIST, MIN, MAX))
+
+input('\n键入回车退出程序...\n')
+</code></pre>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Mr. Gao的个人博客</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://gaojj2000.github.io/post/lambda/">https://gaojj2000.github.io/post/lambda/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gaojj2000.github.io/post/lambda/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://gaojj2000.github.io/post/lambda/&sharesource=qzone&title=Python中的lambda&pics=https://gaojj2000.github.io/images/avatar.png?v=1754812031243&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://gaojj2000.github.io/post/lambda/&sharesource=weibo&title=Python中的lambda + " - " + &pic="https://gaojj2000.github.io/images/avatar.png?v=1754812031243 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://gaojj2000.github.io/tag/python/">#
+                    Python
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://gaojj2000.github.io/post/yuanshen1/">
+                                                                                            有关逆向APP获取爬虫数据
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://gaojj2000.github.io/post/multitasking/">
+                                                                                                    关于python多任务设计基础
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Mr. Gao的个人博客 &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/gaojj2000" target="_blank">
+                                                gaojj2000
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '后来我们的爱(萝卜版)',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmJCQUFBQUFBQmZyMEFTMXFIWGc3WlRDOW85VGE5VHc_ZT1pQU9GSkk.mp3',
+                            artist: '原来是萝卜丫',
+                            cover: 'song-images/后来我们的爱(萝卜版).jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '一个人',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmVCQUFBQUFBQmhNTnFTZGp4NXMyZHZnSFhQcTJWQ0E_ZT1kakVSYUg.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/一个人.jpg',
+                        });
+                        
+                        musicList.push({
+                            name: '恋爱告急',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdlpCQUFBQUFBQjNnaXJ4QVFQd0QwbWRrS0VobWRSM0E_ZT16cGZOSlQ.mp3',
+                            artist: '鞠婧祎',
+                            cover: 'song-images/恋爱告急.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '喜欢',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmRCQUFBQUFBQkdiWEU4MGpWWmItZTF0TGdFRXlWUmc_ZT1WMGxYWVk.mp3',
+                            artist: '阿肆',
+                            cover: 'song-images/喜欢.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '藏不住的心跳',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmFCQUFBQUFBQmg2OXI4clJoRWFXYUpWeHZfNXZmZWc_ZT0yQlhzZmo.mp3',
+                            artist: '朱主爱',
+                            cover: 'song-images/藏不住的心跳.webp',
+                        });
+                        
+                        musicList.push({
+                            name: '你不纯洁',
+                            url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYmEzZGQ4Yzk2ZGFjZDI5L0VTbk4ycGFNM2FNZ2dBdmNCQUFBQUFBQms5SV9RMHBmZnpvWHotOFctN3RRckE_ZT1oYU9XTEQ.mp3',
+                            artist: '夏婉安',
+                            cover: 'song-images/你不纯洁.webp',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1754812031243);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
